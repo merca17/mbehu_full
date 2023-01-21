@@ -1,0 +1,120 @@
+[0.238s] Invoking command in '/home/sebas/mbehu_restored_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --build /home/sebas/mbehu_restored_ws/build/serial_motor_demo_msgs -- -j4 -l4
+[1.334s] [  2%] Built target serial_motor_demo_msgs__cpp
+[1.843s] [ 12%] Built target serial_motor_demo_msgs__rosidl_generator_c
+[2.251s] [ 23%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp
+[2.387s] [ 34%] Built target serial_motor_demo_msgs__rosidl_typesupport_cpp
+[2.658s] [ 44%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp
+[2.917s] [ 55%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c
+[3.065s] [ 65%] Built target serial_motor_demo_msgs__rosidl_typesupport_c
+[3.433s] [ 76%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c
+[3.776s] [ 76%] Built target serial_motor_demo_msgs
+[4.114s] [ 78%] Built target serial_motor_demo_msgs__py
+[4.606s] [ 87%] Built target serial_motor_demo_msgs__python
+[5.077s] [ 91%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext
+[5.173s] [ 95%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.288s] [100%] Built target serial_motor_demo_msgs__rosidl_typesupport_c__pyext
+[5.469s] Invoked command in '/home/sebas/mbehu_restored_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --build /home/sebas/mbehu_restored_ws/build/serial_motor_demo_msgs -- -j4 -l4
+[6.970s] Invoking command in '/home/sebas/mbehu_restored_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --install /home/sebas/mbehu_restored_ws/build/serial_motor_demo_msgs
+[7.041s] -- Install configuration: ""
+[7.045s] -- Execute custom install script
+[7.051s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/rosidl_interfaces/serial_motor_demo_msgs
+[7.059s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.h
+[7.062s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.h
+[7.065s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.h
+[7.068s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__functions.h
+[7.076s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__struct.h
+[7.084s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__type_support.h
+[7.085s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__functions.h
+[7.086s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__struct.h
+[7.087s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.h
+[7.088s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/encoder_vals.h
+[7.089s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_command.h
+[7.092s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_vels.h
+[7.094s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_generator_c__visibility_control.h
+[7.095s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.sh
+[7.098s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.dsv
+[7.100s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_c.h
+[7.101s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h
+[7.102s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_c.h
+[7.106s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.109s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so
+[7.123s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_cpp.hpp
+[7.127s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp
+[7.131s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_cpp.hpp
+[7.134s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.139s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[7.148s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_c.h
+[7.152s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_c.h
+[7.155s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_c.h
+[7.162s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.171s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__builder.hpp
+[7.174s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.hpp
+[7.178s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__traits.hpp
+[7.182s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__builder.hpp
+[7.186s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__struct.hpp
+[7.190s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__traits.hpp
+[7.193s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__builder.hpp
+[7.197s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__struct.hpp
+[7.200s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__traits.hpp
+[7.204s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/encoder_vals.hpp
+[7.208s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_command.hpp
+[7.211s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_vels.hpp
+[7.219s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_cpp.hpp
+[7.223s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp
+[7.227s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_cpp.hpp
+[7.231s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.sh
+[7.235s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.dsv
+[7.239s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/__init__.py
+[7.247s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/__init__.py
+[7.250s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/_encoder_vals.py
+[7.254s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/_motor_command.py
+[7.258s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/_motor_vels.py
+[7.267s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[7.273s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[7.280s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[7.284s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__python.so
+[7.289s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.idl
+[7.293s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.idl
+[7.297s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.idl
+[7.302s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.msg
+[7.306s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.msg
+[7.309s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.msg
+[7.314s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/package_run_dependencies/serial_motor_demo_msgs
+[7.319s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/parent_prefix_path/serial_motor_demo_msgs
+[7.323s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.sh
+[7.328s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.dsv
+[7.332s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.sh
+[7.338s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.dsv
+[7.341s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.bash
+[7.345s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.sh
+[7.349s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.zsh
+[7.355s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.dsv
+[7.361s] -- Symlinking: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv
+[7.476s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/packages/serial_motor_demo_msgs
+[7.477s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake-extras.cmake
+[7.481s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.484s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[7.489s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[7.494s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.499s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.503s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.507s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig.cmake
+[7.511s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig-version.cmake
+[7.514s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.xml
+[7.518s] -- Up-to-date: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so
+[7.524s] -- Up-to-date: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so
+[7.530s] -- Up-to-date: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so
+[7.535s] -- Up-to-date: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so
+[7.542s] -- Up-to-date: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so
+[8.004s] -- Up-to-date: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_generator_cExport.cmake
+[8.008s] -- Up-to-date: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_generator_cExport-noconfig.cmake
+[8.013s] -- Up-to-date: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport.cmake
+[8.018s] -- Up-to-date: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.021s] -- Up-to-date: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport.cmake
+[8.025s] -- Up-to-date: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[8.029s] -- Up-to-date: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_generator_cppExport.cmake
+[8.034s] -- Up-to-date: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[8.037s] -- Up-to-date: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.041s] -- Up-to-date: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport.cmake
+[8.047s] -- Up-to-date: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[8.062s] Invoked command in '/home/sebas/mbehu_restored_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --install /home/sebas/mbehu_restored_ws/build/serial_motor_demo_msgs

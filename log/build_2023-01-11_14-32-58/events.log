@@ -1,0 +1,596 @@
+[0.000000] (-) TimerEvent: {}
+[0.005682] (ldlidar_sl_ros2) JobQueued: {'identifier': 'ldlidar_sl_ros2', 'dependencies': OrderedDict()}
+[0.007645] (mbehu_bot) JobQueued: {'identifier': 'mbehu_bot', 'dependencies': OrderedDict()}
+[0.010405] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.010917] (serial_motor_demo_msgs) JobQueued: {'identifier': 'serial_motor_demo_msgs', 'dependencies': OrderedDict()}
+[0.011293] (diffdrive_arduino) JobQueued: {'identifier': 'diffdrive_arduino', 'dependencies': OrderedDict([('serial', '/home/sebas/mbehu_restored_ws/install/serial')])}
+[0.011596] (serial_motor_demo) JobQueued: {'identifier': 'serial_motor_demo', 'dependencies': OrderedDict([('serial_motor_demo_msgs', '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs')])}
+[0.011857] (serial) JobStarted: {'identifier': 'serial'}
+[0.101332] (-) TimerEvent: {}
+[0.191734] (serial_motor_demo_msgs) JobStarted: {'identifier': 'serial_motor_demo_msgs'}
+[0.205086] (-) TimerEvent: {}
+[0.317567] (-) TimerEvent: {}
+[0.328927] (ldlidar_sl_ros2) JobStarted: {'identifier': 'ldlidar_sl_ros2'}
+[0.417489] (-) TimerEvent: {}
+[0.452011] (mbehu_bot) JobStarted: {'identifier': 'mbehu_bot'}
+[0.517851] (-) TimerEvent: {}
+[0.596273] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[0.604688] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[0.610862] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sebas/mbehu_restored_ws/build/serial', '--', '-j4', '-l4'], 'cwd': '/home/sebas/mbehu_restored_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sebas'), ('SSH_CLIENT', '192.168.209.34 57872 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib:/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/lib:/home/sebas/mbehu_restored_ws/install/serial/lib:/home/sebas/mbehu_ws/install/diffdrive_arduino/lib:/home/sebas/mbehu_ws/install/serial/lib:/home/sebas/mbehu_ws/install/imu_driver/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sebas'), ('OLDPWD', '/home/sebas'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('UBUNTU_MENUPROXY', '1'), ('COLCON_PREFIX_PATH', '/home/sebas/mbehu_restored_ws/install:/home/sebas/mbehu_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sebas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sebas/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs:/home/sebas/mbehu_restored_ws/install/diffdrive_arduino:/home/sebas/mbehu_restored_ws/install/serial:/home/sebas/mbehu_restored_ws/install/mbehu_bot:/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sebas/mbehu_restored_ws/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.209.34 57872 192.168.209.139 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sebas/mbehu_restored_ws/build/serial_motor_demo:/home/sebas/mbehu_restored_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/ultrasonico:/home/sebas/mbehu_ws/install/ultrasonico/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050_pkg/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050:/home/sebas/mbehu_ws/install/mpu6050/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs:/home/sebas/mbehu_restored_ws/install/diffdrive_arduino:/home/sebas/mbehu_restored_ws/install/serial:/home/sebas/mbehu_restored_ws/install/mbehu_bot:/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy')]), 'shell': False}
+[0.621798] (-) TimerEvent: {}
+[0.672564] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'cmake'}
+[0.683505] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'build'}
+[0.686498] (serial_motor_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sebas/mbehu_restored_ws/build/serial_motor_demo_msgs', '--', '-j4', '-l4'], 'cwd': '/home/sebas/mbehu_restored_ws/build/serial_motor_demo_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sebas'), ('SSH_CLIENT', '192.168.209.34 57872 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib:/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/lib:/home/sebas/mbehu_restored_ws/install/serial/lib:/home/sebas/mbehu_ws/install/diffdrive_arduino/lib:/home/sebas/mbehu_ws/install/serial/lib:/home/sebas/mbehu_ws/install/imu_driver/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sebas'), ('OLDPWD', '/home/sebas'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('UBUNTU_MENUPROXY', '1'), ('COLCON_PREFIX_PATH', '/home/sebas/mbehu_restored_ws/install:/home/sebas/mbehu_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sebas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sebas/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs:/home/sebas/mbehu_restored_ws/install/diffdrive_arduino:/home/sebas/mbehu_restored_ws/install/serial:/home/sebas/mbehu_restored_ws/install/mbehu_bot:/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sebas/mbehu_restored_ws/build/serial_motor_demo_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.209.34 57872 192.168.209.139 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sebas/mbehu_restored_ws/build/serial_motor_demo:/home/sebas/mbehu_restored_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/ultrasonico:/home/sebas/mbehu_ws/install/ultrasonico/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050_pkg/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050:/home/sebas/mbehu_ws/install/mpu6050/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs:/home/sebas/mbehu_restored_ws/install/diffdrive_arduino:/home/sebas/mbehu_restored_ws/install/serial:/home/sebas/mbehu_restored_ws/install/mbehu_bot:/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy')]), 'shell': False}
+[0.722383] (-) TimerEvent: {}
+[0.733255] (ldlidar_sl_ros2) JobProgress: {'identifier': 'ldlidar_sl_ros2', 'progress': 'cmake'}
+[0.743578] (ldlidar_sl_ros2) JobProgress: {'identifier': 'ldlidar_sl_ros2', 'progress': 'build'}
+[0.746630] (ldlidar_sl_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sebas/mbehu_restored_ws/build/ldlidar_sl_ros2', '--', '-j4', '-l4'], 'cwd': '/home/sebas/mbehu_restored_ws/build/ldlidar_sl_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sebas'), ('SSH_CLIENT', '192.168.209.34 57872 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib:/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/lib:/home/sebas/mbehu_restored_ws/install/serial/lib:/home/sebas/mbehu_ws/install/diffdrive_arduino/lib:/home/sebas/mbehu_ws/install/serial/lib:/home/sebas/mbehu_ws/install/imu_driver/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sebas'), ('OLDPWD', '/home/sebas'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('UBUNTU_MENUPROXY', '1'), ('COLCON_PREFIX_PATH', '/home/sebas/mbehu_restored_ws/install:/home/sebas/mbehu_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sebas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sebas/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs:/home/sebas/mbehu_restored_ws/install/diffdrive_arduino:/home/sebas/mbehu_restored_ws/install/serial:/home/sebas/mbehu_restored_ws/install/mbehu_bot:/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sebas/mbehu_restored_ws/build/ldlidar_sl_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.209.34 57872 192.168.209.139 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sebas/mbehu_restored_ws/build/serial_motor_demo:/home/sebas/mbehu_restored_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/ultrasonico:/home/sebas/mbehu_ws/install/ultrasonico/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050_pkg/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050:/home/sebas/mbehu_ws/install/mpu6050/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs:/home/sebas/mbehu_restored_ws/install/diffdrive_arduino:/home/sebas/mbehu_restored_ws/install/serial:/home/sebas/mbehu_restored_ws/install/mbehu_bot:/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy')]), 'shell': False}
+[0.822760] (-) TimerEvent: {}
+[0.841368] (mbehu_bot) JobProgress: {'identifier': 'mbehu_bot', 'progress': 'cmake'}
+[0.864904] (mbehu_bot) JobProgress: {'identifier': 'mbehu_bot', 'progress': 'build'}
+[0.869763] (mbehu_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sebas/mbehu_restored_ws/build/mbehu_bot', '--', '-j4', '-l4'], 'cwd': '/home/sebas/mbehu_restored_ws/build/mbehu_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sebas'), ('SSH_CLIENT', '192.168.209.34 57872 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib:/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/lib:/home/sebas/mbehu_restored_ws/install/serial/lib:/home/sebas/mbehu_ws/install/diffdrive_arduino/lib:/home/sebas/mbehu_ws/install/serial/lib:/home/sebas/mbehu_ws/install/imu_driver/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sebas'), ('OLDPWD', '/home/sebas'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('UBUNTU_MENUPROXY', '1'), ('COLCON_PREFIX_PATH', '/home/sebas/mbehu_restored_ws/install:/home/sebas/mbehu_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sebas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sebas/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs:/home/sebas/mbehu_restored_ws/install/diffdrive_arduino:/home/sebas/mbehu_restored_ws/install/serial:/home/sebas/mbehu_restored_ws/install/mbehu_bot:/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sebas/mbehu_restored_ws/build/mbehu_bot'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.209.34 57872 192.168.209.139 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sebas/mbehu_restored_ws/build/serial_motor_demo:/home/sebas/mbehu_restored_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/ultrasonico:/home/sebas/mbehu_ws/install/ultrasonico/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050_pkg/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050:/home/sebas/mbehu_ws/install/mpu6050/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs:/home/sebas/mbehu_restored_ws/install/diffdrive_arduino:/home/sebas/mbehu_restored_ws/install/serial:/home/sebas/mbehu_restored_ws/install/mbehu_bot:/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy')]), 'shell': False}
+[0.924509] (-) TimerEvent: {}
+[1.028378] (-) TimerEvent: {}
+[1.130569] (-) TimerEvent: {}
+[1.232117] (-) TimerEvent: {}
+[1.333460] (-) TimerEvent: {}
+[1.434836] (-) TimerEvent: {}
+[1.536108] (-) TimerEvent: {}
+[1.637390] (-) TimerEvent: {}
+[1.738671] (-) TimerEvent: {}
+[1.839839] (-) TimerEvent: {}
+[1.941301] (-) TimerEvent: {}
+[2.042542] (-) TimerEvent: {}
+[2.143812] (-) TimerEvent: {}
+[2.245209] (-) TimerEvent: {}
+[2.346505] (-) TimerEvent: {}
+[2.447759] (-) TimerEvent: {}
+[2.549054] (-) TimerEvent: {}
+[2.650625] (-) TimerEvent: {}
+[2.995395] (-) TimerEvent: {}
+[3.096706] (-) TimerEvent: {}
+[3.198430] (-) TimerEvent: {}
+[3.301312] (-) TimerEvent: {}
+[3.403163] (-) TimerEvent: {}
+[3.505632] (-) TimerEvent: {}
+[3.610184] (-) TimerEvent: {}
+[3.701678] (mbehu_bot) CommandEnded: {'returncode': 0}
+[3.717576] (-) TimerEvent: {}
+[3.826814] (-) TimerEvent: {}
+[3.928372] (-) TimerEvent: {}
+[3.962072] (serial) StdoutLine: {'line': b'[ 28%] Built target serial\n'}
+[4.028667] (-) TimerEvent: {}
+[4.130283] (-) TimerEvent: {}
+[4.153667] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  2%] Built target serial_motor_demo_msgs__cpp\n'}
+[4.170138] (serial) StdoutLine: {'line': b'[ 42%] Built target gtest\n'}
+[4.202234] (serial) StdoutLine: {'line': b'[ 57%] Built target gtest_main\n'}
+[4.230637] (-) TimerEvent: {}
+[4.285628] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 12%] Built target serial_motor_demo_msgs__rosidl_generator_c\n'}
+[4.331703] (-) TimerEvent: {}
+[4.427815] (mbehu_bot) JobProgress: {'identifier': 'mbehu_bot', 'progress': 'install'}
+[4.434507] (-) TimerEvent: {}
+[4.538200] (-) TimerEvent: {}
+[4.607970] (serial) StdoutLine: {'line': b'[ 71%] Built target serial_example\n'}
+[4.638596] (-) TimerEvent: {}
+[4.740747] (-) TimerEvent: {}
+[4.842289] (-) TimerEvent: {}
+[4.869523] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 23%] Built target serial_motor_demo_msgs__rosidl_typesupport_cpp\n'}
+[4.928270] (serial) StdoutLine: {'line': b'[ 85%] Built target serial-test-timer\n'}
+[4.942653] (-) TimerEvent: {}
+[4.985126] (serial) StdoutLine: {'line': b'[100%] Built target serial-test\n'}
+[5.030126] (mbehu_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sebas/mbehu_restored_ws/build/mbehu_bot'], 'cwd': '/home/sebas/mbehu_restored_ws/build/mbehu_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sebas'), ('SSH_CLIENT', '192.168.209.34 57872 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib:/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/lib:/home/sebas/mbehu_restored_ws/install/serial/lib:/home/sebas/mbehu_ws/install/diffdrive_arduino/lib:/home/sebas/mbehu_ws/install/serial/lib:/home/sebas/mbehu_ws/install/imu_driver/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sebas'), ('OLDPWD', '/home/sebas'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('UBUNTU_MENUPROXY', '1'), ('COLCON_PREFIX_PATH', '/home/sebas/mbehu_restored_ws/install:/home/sebas/mbehu_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sebas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sebas/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs:/home/sebas/mbehu_restored_ws/install/diffdrive_arduino:/home/sebas/mbehu_restored_ws/install/serial:/home/sebas/mbehu_restored_ws/install/mbehu_bot:/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sebas/mbehu_restored_ws/build/mbehu_bot'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.209.34 57872 192.168.209.139 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sebas/mbehu_restored_ws/build/serial_motor_demo:/home/sebas/mbehu_restored_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/ultrasonico:/home/sebas/mbehu_ws/install/ultrasonico/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050_pkg/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050:/home/sebas/mbehu_ws/install/mpu6050/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs:/home/sebas/mbehu_restored_ws/install/diffdrive_arduino:/home/sebas/mbehu_restored_ws/install/serial:/home/sebas/mbehu_restored_ws/install/mbehu_bot:/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy')]), 'shell': False}
+[5.071904] (-) TimerEvent: {}
+[5.097493] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 34%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp\n'}
+[5.140670] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 44%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c\n'}
+[5.172898] (-) TimerEvent: {}
+[5.183118] (serial) CommandEnded: {'returncode': 0}
+[5.273479] (-) TimerEvent: {}
+[5.284193] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 55%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[5.359665] (mbehu_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.365746] (mbehu_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.373974] (-) TimerEvent: {}
+[5.381293] (mbehu_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/config/drive_mbehu.rviz\n'}
+[5.387051] (mbehu_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/config/empty.yaml\n'}
+[5.392641] (mbehu_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/config/gaz_ros2_ctl_use_sim.yaml\n'}
+[5.398125] (mbehu_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/config/gazebo_params.yaml\n'}
+[5.403362] (mbehu_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/config/joystick.yaml\n'}
+[5.409850] (mbehu_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/config/mapper_params_online_async.yaml\n'}
+[5.415632] (mbehu_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/config/my_controllers.yaml\n'}
+[5.420470] (mbehu_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/config/nav2_params.yaml\n'}
+[5.425761] (mbehu_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/config/twist_mux.yaml\n'}
+[5.428510] (ldlidar_sl_ros2) StdoutLine: {'line': b'[100%] Built target ldlidar_sl_ros2_node\n'}
+[5.437293] (mbehu_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/description/gazebo_control.xacro\n'}
+[5.443160] (mbehu_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/description/inertial_macros.xacro\n'}
+[5.448363] (mbehu_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/description/lidar.xacro\n'}
+[5.454629] (mbehu_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/description/robot.urdf.xacro\n'}
+[5.459802] (mbehu_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/description/robot_core.xacro\n'}
+[5.464532] (mbehu_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/description/ros2_control.xacro\n'}
+[5.472674] (mbehu_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/launch/joystick.launch.py\n'}
+[5.474311] (-) TimerEvent: {}
+[5.483375] (mbehu_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/launch/launch_robot.launch.py\n'}
+[5.489116] (mbehu_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/launch/launch_sim.launch.py\n'}
+[5.494309] (mbehu_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/launch/localization_launch.py\n'}
+[5.499426] (mbehu_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/launch/navigation_launch.py\n'}
+[5.505270] (mbehu_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/launch/rsp.launch.py\n'}
+[5.515266] (mbehu_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/worlds/empty.world\n'}
+[5.520193] (mbehu_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/worlds/world1.world\n'}
+[5.527629] (mbehu_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/ament_index/resource_index/package_run_dependencies/mbehu_bot\n'}
+[5.539436] (mbehu_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/ament_index/resource_index/parent_prefix_path/mbehu_bot\n'}
+[5.549538] (mbehu_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/environment/ament_prefix_path.sh\n'}
+[5.551396] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 65%] Built target serial_motor_demo_msgs__rosidl_typesupport_c\n'}
+[5.558052] (mbehu_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/environment/ament_prefix_path.dsv\n'}
+[5.567484] (mbehu_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/environment/path.sh\n'}
+[5.575030] (mbehu_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/environment/path.dsv\n'}
+[5.576367] (-) TimerEvent: {}
+[5.584396] (mbehu_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/local_setup.bash\n'}
+[5.600440] (mbehu_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/local_setup.sh\n'}
+[5.606150] (mbehu_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/local_setup.zsh\n'}
+[5.615329] (mbehu_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/local_setup.dsv\n'}
+[5.618992] (mbehu_bot) StdoutLine: {'line': b'-- Symlinking: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/package.dsv\n'}
+[5.634140] (ldlidar_sl_ros2) CommandEnded: {'returncode': 0}
+[5.677101] (-) TimerEvent: {}
+[5.750620] (mbehu_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/ament_index/resource_index/packages/mbehu_bot\n'}
+[5.754734] (mbehu_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/cmake/mbehu_botConfig.cmake\n'}
+[5.757892] (mbehu_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/cmake/mbehu_botConfig-version.cmake\n'}
+[5.761755] (mbehu_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/package.xml\n'}
+[5.780571] (mbehu_bot) CommandEnded: {'returncode': 0}
+[5.784004] (-) TimerEvent: {}
+[5.887942] (-) TimerEvent: {}
+[5.940584] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 76%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c\n'}
+[5.988474] (-) TimerEvent: {}
+[6.089982] (-) TimerEvent: {}
+[6.192098] (-) TimerEvent: {}
+[6.280813] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 76%] Built target serial_motor_demo_msgs\n'}
+[6.292325] (-) TimerEvent: {}
+[6.400114] (-) TimerEvent: {}
+[6.510123] (-) TimerEvent: {}
+[6.611735] (-) TimerEvent: {}
+[6.713184] (-) TimerEvent: {}
+[6.814797] (-) TimerEvent: {}
+[6.916537] (-) TimerEvent: {}
+[7.018760] (-) TimerEvent: {}
+[7.120078] (-) TimerEvent: {}
+[7.221466] (-) TimerEvent: {}
+[7.322845] (-) TimerEvent: {}
+[7.424313] (-) TimerEvent: {}
+[7.526906] (-) TimerEvent: {}
+[7.561749] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[7.564729] (serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sebas/mbehu_restored_ws/build/serial'], 'cwd': '/home/sebas/mbehu_restored_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sebas'), ('SSH_CLIENT', '192.168.209.34 57872 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib:/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/lib:/home/sebas/mbehu_restored_ws/install/serial/lib:/home/sebas/mbehu_ws/install/diffdrive_arduino/lib:/home/sebas/mbehu_ws/install/serial/lib:/home/sebas/mbehu_ws/install/imu_driver/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sebas'), ('OLDPWD', '/home/sebas'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('UBUNTU_MENUPROXY', '1'), ('COLCON_PREFIX_PATH', '/home/sebas/mbehu_restored_ws/install:/home/sebas/mbehu_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sebas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sebas/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs:/home/sebas/mbehu_restored_ws/install/diffdrive_arduino:/home/sebas/mbehu_restored_ws/install/serial:/home/sebas/mbehu_restored_ws/install/mbehu_bot:/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sebas/mbehu_restored_ws/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.209.34 57872 192.168.209.139 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sebas/mbehu_restored_ws/build/serial_motor_demo:/home/sebas/mbehu_restored_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/ultrasonico:/home/sebas/mbehu_ws/install/ultrasonico/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050_pkg/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050:/home/sebas/mbehu_ws/install/mpu6050/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs:/home/sebas/mbehu_restored_ws/install/diffdrive_arduino:/home/sebas/mbehu_restored_ws/install/serial:/home/sebas/mbehu_restored_ws/install/mbehu_bot:/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy')]), 'shell': False}
+[7.606777] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 78%] Built target serial_motor_demo_msgs__py\n'}
+[7.617772] (ldlidar_sl_ros2) JobProgress: {'identifier': 'ldlidar_sl_ros2', 'progress': 'install'}
+[7.620723] (ldlidar_sl_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sebas/mbehu_restored_ws/build/ldlidar_sl_ros2'], 'cwd': '/home/sebas/mbehu_restored_ws/build/ldlidar_sl_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sebas'), ('SSH_CLIENT', '192.168.209.34 57872 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib:/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/lib:/home/sebas/mbehu_restored_ws/install/serial/lib:/home/sebas/mbehu_ws/install/diffdrive_arduino/lib:/home/sebas/mbehu_ws/install/serial/lib:/home/sebas/mbehu_ws/install/imu_driver/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sebas'), ('OLDPWD', '/home/sebas'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('UBUNTU_MENUPROXY', '1'), ('COLCON_PREFIX_PATH', '/home/sebas/mbehu_restored_ws/install:/home/sebas/mbehu_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sebas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sebas/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs:/home/sebas/mbehu_restored_ws/install/diffdrive_arduino:/home/sebas/mbehu_restored_ws/install/serial:/home/sebas/mbehu_restored_ws/install/mbehu_bot:/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sebas/mbehu_restored_ws/build/ldlidar_sl_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.209.34 57872 192.168.209.139 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sebas/mbehu_restored_ws/build/serial_motor_demo:/home/sebas/mbehu_restored_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/ultrasonico:/home/sebas/mbehu_ws/install/ultrasonico/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050_pkg/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050:/home/sebas/mbehu_ws/install/mpu6050/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs:/home/sebas/mbehu_restored_ws/install/diffdrive_arduino:/home/sebas/mbehu_restored_ws/install/serial:/home/sebas/mbehu_restored_ws/install/mbehu_bot:/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy')]), 'shell': False}
+[7.631934] (-) TimerEvent: {}
+[7.748067] (-) TimerEvent: {}
+[7.778050] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.782243] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.804850] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.828018] (serial) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.832863] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/lib/ldlidar_sl_ros2/ldlidar_sl_ros2_node\n'}
+[7.840444] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//launch/ld14.launch.py\n'}
+[7.848637] (-) TimerEvent: {}
+[7.851405] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//launch/viewer_ld14.launch.py\n'}
+[7.852681] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//rviz2/ldlidar.rviz\n'}
+[7.855203] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//scripts/create_udev_rules.sh\n'}
+[7.857262] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//scripts/delete_udev_rules.sh\n'}
+[7.860568] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//scripts/ldlidar.rules\n'}
+[7.865950] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ament_index/resource_index/package_run_dependencies/ldlidar_sl_ros2\n'}
+[7.872375] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/lib/libserial.a\n'}
+[7.911602] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ament_index/resource_index/parent_prefix_path/ldlidar_sl_ros2\n'}
+[7.929265] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/environment/ament_prefix_path.sh\n'}
+[7.930728] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/environment/ament_prefix_path.dsv\n'}
+[7.931890] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/environment/path.sh\n'}
+[7.933100] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/environment/path.dsv\n'}
+[7.945966] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/local_setup.bash\n'}
+[7.947299] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/local_setup.sh\n'}
+[7.948268] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/local_setup.zsh\n'}
+[7.949149] (-) TimerEvent: {}
+[7.959256] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/local_setup.dsv\n'}
+[7.962867] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Symlinking: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.dsv\n'}
+[7.964251] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/include/serial/serial.h\n'}
+[7.986226] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/include/serial/v8stdint.h\n'}
+[8.029972] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/share/serial/environment/library_path.sh\n'}
+[8.033765] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/share/serial/environment/library_path.dsv\n'}
+[8.038087] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[8.049408] (-) TimerEvent: {}
+[8.051186] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ament_index/resource_index/packages/ldlidar_sl_ros2\n'}
+[8.054810] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/cmake/ldlidar_sl_ros2Config.cmake\n'}
+[8.057408] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/cmake/ldlidar_sl_ros2Config-version.cmake\n'}
+[8.060728] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.xml\n'}
+[8.079841] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[8.092975] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[8.099551] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[8.100945] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/share/serial/environment/path.sh\n'}
+[8.111233] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/share/serial/environment/path.dsv\n'}
+[8.118630] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/share/serial/local_setup.bash\n'}
+[8.119867] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/share/serial/local_setup.sh\n'}
+[8.126853] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/share/serial/local_setup.zsh\n'}
+[8.133513] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/share/serial/local_setup.dsv\n'}
+[8.134687] (serial) StdoutLine: {'line': b'-- Symlinking: /home/sebas/mbehu_restored_ws/install/serial/share/serial/package.dsv\n'}
+[8.149995] (-) TimerEvent: {}
+[8.163404] (mbehu_bot) JobEnded: {'identifier': 'mbehu_bot', 'rc': 0}
+[8.174265] (ldlidar_sl_ros2) CommandEnded: {'returncode': 0}
+[8.248060] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[8.249246] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.250102] (-) TimerEvent: {}
+[8.254599] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.259833] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[8.261032] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[8.263463] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/share/serial/package.xml\n'}
+[8.352467] (serial) CommandEnded: {'returncode': 0}
+[8.388071] (-) TimerEvent: {}
+[8.410771] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 87%] Built target serial_motor_demo_msgs__python\n'}
+[8.488683] (-) TimerEvent: {}
+[8.591390] (-) TimerEvent: {}
+[8.694319] (-) TimerEvent: {}
+[8.797444] (-) TimerEvent: {}
+[8.900197] (-) TimerEvent: {}
+[9.003388] (-) TimerEvent: {}
+[9.043531] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 91%] Built target serial_motor_demo_msgs__rosidl_typesupport_c__pyext\n'}
+[9.103674] (-) TimerEvent: {}
+[9.107361] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 95%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[9.146541] (serial_motor_demo_msgs) StdoutLine: {'line': b'[100%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[9.203946] (-) TimerEvent: {}
+[9.285638] (serial_motor_demo_msgs) CommandEnded: {'returncode': 0}
+[9.304710] (-) TimerEvent: {}
+[9.411876] (-) TimerEvent: {}
+[9.481443] (ldlidar_sl_ros2) JobEnded: {'identifier': 'ldlidar_sl_ros2', 'rc': 0}
+[9.517328] (-) TimerEvent: {}
+[9.629733] (-) TimerEvent: {}
+[9.633801] (serial) JobEnded: {'identifier': 'serial', 'rc': 0}
+[9.665715] (diffdrive_arduino) JobStarted: {'identifier': 'diffdrive_arduino'}
+[9.730034] (-) TimerEvent: {}
+[9.820338] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'cmake'}
+[9.831137] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'build'}
+[9.831711] (-) TimerEvent: {}
+[9.836953] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sebas/mbehu_restored_ws/build/diffdrive_arduino', '--', '-j4', '-l4'], 'cwd': '/home/sebas/mbehu_restored_ws/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sebas'), ('SSH_CLIENT', '192.168.209.34 57872 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib:/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/lib:/home/sebas/mbehu_restored_ws/install/serial/lib:/home/sebas/mbehu_ws/install/diffdrive_arduino/lib:/home/sebas/mbehu_ws/install/serial/lib:/home/sebas/mbehu_ws/install/imu_driver/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sebas'), ('OLDPWD', '/home/sebas'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('UBUNTU_MENUPROXY', '1'), ('COLCON_PREFIX_PATH', '/home/sebas/mbehu_restored_ws/install:/home/sebas/mbehu_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sebas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sebas/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs:/home/sebas/mbehu_restored_ws/install/diffdrive_arduino:/home/sebas/mbehu_restored_ws/install/serial:/home/sebas/mbehu_restored_ws/install/mbehu_bot:/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sebas/mbehu_restored_ws/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.209.34 57872 192.168.209.139 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sebas/mbehu_restored_ws/build/serial_motor_demo:/home/sebas/mbehu_restored_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/ultrasonico:/home/sebas/mbehu_ws/install/ultrasonico/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050_pkg/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050:/home/sebas/mbehu_ws/install/mpu6050/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sebas/mbehu_restored_ws/install/serial:/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs:/home/sebas/mbehu_restored_ws/install/diffdrive_arduino:/home/sebas/mbehu_restored_ws/install/mbehu_bot:/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy')]), 'shell': False}
+[9.932093] (-) TimerEvent: {}
+[10.033897] (-) TimerEvent: {}
+[10.135615] (-) TimerEvent: {}
+[10.238142] (-) TimerEvent: {}
+[10.339833] (-) TimerEvent: {}
+[10.441149] (-) TimerEvent: {}
+[10.544079] (-) TimerEvent: {}
+[10.645437] (-) TimerEvent: {}
+[10.746906] (-) TimerEvent: {}
+[10.792064] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'install'}
+[10.795007] (serial_motor_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sebas/mbehu_restored_ws/build/serial_motor_demo_msgs'], 'cwd': '/home/sebas/mbehu_restored_ws/build/serial_motor_demo_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sebas'), ('SSH_CLIENT', '192.168.209.34 57872 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib:/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/lib:/home/sebas/mbehu_restored_ws/install/serial/lib:/home/sebas/mbehu_ws/install/diffdrive_arduino/lib:/home/sebas/mbehu_ws/install/serial/lib:/home/sebas/mbehu_ws/install/imu_driver/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sebas'), ('OLDPWD', '/home/sebas'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('UBUNTU_MENUPROXY', '1'), ('COLCON_PREFIX_PATH', '/home/sebas/mbehu_restored_ws/install:/home/sebas/mbehu_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sebas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sebas/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs:/home/sebas/mbehu_restored_ws/install/diffdrive_arduino:/home/sebas/mbehu_restored_ws/install/serial:/home/sebas/mbehu_restored_ws/install/mbehu_bot:/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sebas/mbehu_restored_ws/build/serial_motor_demo_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.209.34 57872 192.168.209.139 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sebas/mbehu_restored_ws/build/serial_motor_demo:/home/sebas/mbehu_restored_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/ultrasonico:/home/sebas/mbehu_ws/install/ultrasonico/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050_pkg/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050:/home/sebas/mbehu_ws/install/mpu6050/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs:/home/sebas/mbehu_restored_ws/install/diffdrive_arduino:/home/sebas/mbehu_restored_ws/install/serial:/home/sebas/mbehu_restored_ws/install/mbehu_bot:/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy')]), 'shell': False}
+[10.848149] (-) TimerEvent: {}
+[10.909734] (diffdrive_arduino) StdoutLine: {'line': b'[ 42%] Built target fake_robot\n'}
+[10.920559] (diffdrive_arduino) StdoutLine: {'line': b'[100%] Built target diffdrive_arduino\n'}
+[10.934143] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.940695] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.948352] (-) TimerEvent: {}
+[10.951715] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/rosidl_interfaces/serial_motor_demo_msgs\n'}
+[10.964417] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.h\n'}
+[10.968358] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.h\n'}
+[10.972664] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.h\n'}
+[10.977056] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__functions.h\n'}
+[10.982223] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__struct.h\n'}
+[10.986846] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__type_support.h\n'}
+[10.991985] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__functions.h\n'}
+[10.996138] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__struct.h\n'}
+[11.000619] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.h\n'}
+[11.005119] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/encoder_vals.h\n'}
+[11.010593] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_command.h\n'}
+[11.016244] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_vels.h\n'}
+[11.021542] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.029591] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.sh\n'}
+[11.035464] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.dsv\n'}
+[11.047365] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[11.051863] (-) TimerEvent: {}
+[11.055499] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_c.h\n'}
+[11.056834] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h\n'}
+[11.058311] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_c.h\n'}
+[11.072174] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.074074] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[11.086781] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.095513] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.097247] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.100669] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.107871] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.120011] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_c.h\n'}
+[11.124215] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_c.h\n'}
+[11.128704] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_c.h\n'}
+[11.132659] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.145136] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__builder.hpp\n'}
+[11.149453] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.hpp\n'}
+[11.152107] (-) TimerEvent: {}
+[11.154171] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__traits.hpp\n'}
+[11.158693] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__builder.hpp\n'}
+[11.162965] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__struct.hpp\n'}
+[11.167202] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__traits.hpp\n'}
+[11.171643] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__builder.hpp\n'}
+[11.176473] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__struct.hpp\n'}
+[11.179519] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__traits.hpp\n'}
+[11.183456] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/encoder_vals.hpp\n'}
+[11.187380] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_command.hpp\n'}
+[11.191603] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_vels.hpp\n'}
+[11.202580] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.206749] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.211597] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.215819] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.sh\n'}
+[11.219567] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.dsv\n'}
+[11.225302] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/__init__.py\n'}
+[11.233991] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/__init__.py\n'}
+[11.237912] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/_encoder_vals.py\n'}
+[11.241871] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/_motor_command.py\n'}
+[11.245964] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/_motor_vels.py\n'}
+[11.252319] (-) TimerEvent: {}
+[11.254246] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[11.260746] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[11.267762] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[11.274244] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__python.so\n'}
+[11.279803] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.idl\n'}
+[11.284424] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.idl\n'}
+[11.289677] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.idl\n'}
+[11.293714] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.msg\n'}
+[11.298273] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.msg\n'}
+[11.303141] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.msg\n'}
+[11.307432] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/package_run_dependencies/serial_motor_demo_msgs\n'}
+[11.315563] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/parent_prefix_path/serial_motor_demo_msgs\n'}
+[11.319718] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.sh\n'}
+[11.323816] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.dsv\n'}
+[11.330029] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.sh\n'}
+[11.333819] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.dsv\n'}
+[11.340593] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.bash\n'}
+[11.345468] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.sh\n'}
+[11.350886] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.zsh\n'}
+[11.352468] (-) TimerEvent: {}
+[11.354700] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.dsv\n'}
+[11.357696] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv\n'}
+[11.452797] (-) TimerEvent: {}
+[11.467709] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/packages/serial_motor_demo_msgs\n'}
+[11.473068] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[11.477952] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.483064] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.488001] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.492389] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.497035] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.501639] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.506646] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig.cmake\n'}
+[11.510441] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig-version.cmake\n'}
+[11.517600] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'install'}
+[11.518096] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.xml\n'}
+[11.527541] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sebas/mbehu_restored_ws/build/diffdrive_arduino'], 'cwd': '/home/sebas/mbehu_restored_ws/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sebas'), ('SSH_CLIENT', '192.168.209.34 57872 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib:/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/lib:/home/sebas/mbehu_restored_ws/install/serial/lib:/home/sebas/mbehu_ws/install/diffdrive_arduino/lib:/home/sebas/mbehu_ws/install/serial/lib:/home/sebas/mbehu_ws/install/imu_driver/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sebas'), ('OLDPWD', '/home/sebas'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('UBUNTU_MENUPROXY', '1'), ('COLCON_PREFIX_PATH', '/home/sebas/mbehu_restored_ws/install:/home/sebas/mbehu_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sebas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sebas/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs:/home/sebas/mbehu_restored_ws/install/diffdrive_arduino:/home/sebas/mbehu_restored_ws/install/serial:/home/sebas/mbehu_restored_ws/install/mbehu_bot:/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sebas/mbehu_restored_ws/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.209.34 57872 192.168.209.139 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sebas/mbehu_restored_ws/build/serial_motor_demo:/home/sebas/mbehu_restored_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/ultrasonico:/home/sebas/mbehu_ws/install/ultrasonico/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050_pkg/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050:/home/sebas/mbehu_ws/install/mpu6050/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sebas/mbehu_restored_ws/install/serial:/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs:/home/sebas/mbehu_restored_ws/install/diffdrive_arduino:/home/sebas/mbehu_restored_ws/install/mbehu_bot:/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy')]), 'shell': False}
+[11.544586] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so\n'}
+[11.546251] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so\n'}
+[11.548738] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so\n'}
+[11.549748] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[11.554812] (-) TimerEvent: {}
+[11.558041] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so\n'}
+[11.639389] (diffdrive_arduino) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.645218] (diffdrive_arduino) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.649346] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino//robot_hardware.xml\n'}
+[11.652989] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino//fake_robot_hardware.xml\n'}
+[11.654961] (-) TimerEvent: {}
+[11.660452] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so\n'}
+[11.664682] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/lib/libfake_robot.so\n'}
+[11.674294] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/controllers/robot_controller_example.yaml\n'}
+[11.679993] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot.launch.py\n'}
+[11.683513] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/test_robot.launch.py\n'}
+[11.688306] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh\n'}
+[11.691973] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv\n'}
+[11.696490] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino\n'}
+[11.704209] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino\n'}
+[11.709009] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh\n'}
+[11.713106] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv\n'}
+[11.720047] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh\n'}
+[11.724181] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv\n'}
+[11.731116] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash\n'}
+[11.737113] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh\n'}
+[11.742638] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh\n'}
+[11.751365] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv\n'}
+[11.753349] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv\n'}
+[11.755165] (-) TimerEvent: {}
+[11.856597] (-) TimerEvent: {}
+[11.865165] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino\n'}
+[11.869876] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino\n'}
+[11.878141] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.883238] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.888310] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake\n'}
+[11.892030] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake\n'}
+[11.895505] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.xml\n'}
+[11.908820] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[11.957315] (-) TimerEvent: {}
+[12.075681] (-) TimerEvent: {}
+[12.076977] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_generator_cExport.cmake\n'}
+[12.078725] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[12.083342] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.086068] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[12.090867] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport.cmake\n'}
+[12.093292] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[12.096488] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_generator_cppExport.cmake\n'}
+[12.101551] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.106062] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[12.117998] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[12.120780] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[12.138829] (serial_motor_demo_msgs) CommandEnded: {'returncode': 0}
+[12.175995] (-) TimerEvent: {}
+[12.278275] (-) TimerEvent: {}
+[12.383229] (-) TimerEvent: {}
+[12.485183] (-) TimerEvent: {}
+[12.591834] (-) TimerEvent: {}
+[12.706648] (-) TimerEvent: {}
+[12.785891] (diffdrive_arduino) JobEnded: {'identifier': 'diffdrive_arduino', 'rc': 0}
+[12.806875] (-) TimerEvent: {}
+[12.908624] (-) TimerEvent: {}
+[13.010694] (-) TimerEvent: {}
+[13.112665] (-) TimerEvent: {}
+[13.214910] (-) TimerEvent: {}
+[13.317285] (-) TimerEvent: {}
+[13.418875] (-) TimerEvent: {}
+[13.521231] (-) TimerEvent: {}
+[13.622810] (-) TimerEvent: {}
+[13.724388] (-) TimerEvent: {}
+[13.830967] (-) TimerEvent: {}
+[13.953032] (-) TimerEvent: {}
+[14.009023] (serial_motor_demo_msgs) JobEnded: {'identifier': 'serial_motor_demo_msgs', 'rc': 0}
+[14.033148] (serial_motor_demo) JobStarted: {'identifier': 'serial_motor_demo'}
+[14.058460] (-) TimerEvent: {}
+[14.162132] (-) TimerEvent: {}
+[14.264125] (-) TimerEvent: {}
+[14.365808] (-) TimerEvent: {}
+[14.467098] (-) TimerEvent: {}
+[14.568286] (-) TimerEvent: {}
+[14.669635] (-) TimerEvent: {}
+[14.771209] (-) TimerEvent: {}
+[14.872517] (-) TimerEvent: {}
+[14.973765] (-) TimerEvent: {}
+[15.074976] (-) TimerEvent: {}
+[15.176141] (-) TimerEvent: {}
+[15.277338] (-) TimerEvent: {}
+[15.378977] (-) TimerEvent: {}
+[15.480146] (-) TimerEvent: {}
+[15.581280] (-) TimerEvent: {}
+[15.682486] (-) TimerEvent: {}
+[15.783778] (-) TimerEvent: {}
+[15.885091] (-) TimerEvent: {}
+[15.986221] (-) TimerEvent: {}
+[16.087618] (-) TimerEvent: {}
+[16.189135] (-) TimerEvent: {}
+[16.290895] (-) TimerEvent: {}
+[16.392682] (-) TimerEvent: {}
+[16.493864] (-) TimerEvent: {}
+[16.595284] (-) TimerEvent: {}
+[16.696594] (-) TimerEvent: {}
+[16.798783] (-) TimerEvent: {}
+[16.900930] (-) TimerEvent: {}
+[17.002066] (-) TimerEvent: {}
+[17.103279] (-) TimerEvent: {}
+[17.204468] (-) TimerEvent: {}
+[17.308448] (-) TimerEvent: {}
+[17.425590] (-) TimerEvent: {}
+[17.527904] (-) TimerEvent: {}
+[17.629564] (-) TimerEvent: {}
+[17.730836] (-) TimerEvent: {}
+[17.832172] (-) TimerEvent: {}
+[17.933491] (-) TimerEvent: {}
+[18.034888] (-) TimerEvent: {}
+[18.136365] (-) TimerEvent: {}
+[18.237694] (-) TimerEvent: {}
+[18.339233] (-) TimerEvent: {}
+[18.440911] (-) TimerEvent: {}
+[18.542109] (-) TimerEvent: {}
+[18.643365] (-) TimerEvent: {}
+[18.744891] (-) TimerEvent: {}
+[18.846098] (-) TimerEvent: {}
+[18.947506] (-) TimerEvent: {}
+[19.048723] (-) TimerEvent: {}
+[19.150415] (-) TimerEvent: {}
+[19.251812] (-) TimerEvent: {}
+[19.353868] (-) TimerEvent: {}
+[19.455365] (-) TimerEvent: {}
+[19.557530] (-) TimerEvent: {}
+[19.658726] (-) TimerEvent: {}
+[19.759862] (-) TimerEvent: {}
+[19.860963] (-) TimerEvent: {}
+[19.962087] (-) TimerEvent: {}
+[20.063348] (-) TimerEvent: {}
+[20.164590] (-) TimerEvent: {}
+[20.265844] (-) TimerEvent: {}
+[20.367117] (-) TimerEvent: {}
+[20.468370] (-) TimerEvent: {}
+[20.569725] (-) TimerEvent: {}
+[20.671134] (-) TimerEvent: {}
+[20.772335] (-) TimerEvent: {}
+[20.873508] (-) TimerEvent: {}
+[20.974736] (-) TimerEvent: {}
+[21.075946] (-) TimerEvent: {}
+[21.178150] (-) TimerEvent: {}
+[21.279350] (-) TimerEvent: {}
+[21.380450] (-) TimerEvent: {}
+[21.481705] (-) TimerEvent: {}
+[21.583003] (-) TimerEvent: {}
+[21.684163] (-) TimerEvent: {}
+[21.785599] (-) TimerEvent: {}
+[21.887219] (-) TimerEvent: {}
+[21.988783] (-) TimerEvent: {}
+[22.089955] (-) TimerEvent: {}
+[22.191245] (-) TimerEvent: {}
+[22.292579] (-) TimerEvent: {}
+[22.394193] (-) TimerEvent: {}
+[22.495830] (-) TimerEvent: {}
+[22.599874] (-) TimerEvent: {}
+[22.666818] (serial_motor_demo) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/sebas/mbehu_restored_ws/build/serial_motor_demo/build', '--no-deps', 'install_data'], 'cwd': '/home/sebas/mbehu_restored_ws/build/serial_motor_demo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'sebas', 'SSH_CLIENT': '192.168.209.34 57872 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib:/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/lib:/home/sebas/mbehu_restored_ws/install/serial/lib:/home/sebas/mbehu_ws/install/diffdrive_arduino/lib:/home/sebas/mbehu_ws/install/serial/lib:/home/sebas/mbehu_ws/install/imu_driver/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/sebas', 'OLDPWD': '/home/sebas', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'UBUNTU_MENUPROXY': '1', 'COLCON_PREFIX_PATH': '/home/sebas/mbehu_restored_ws/install:/home/sebas/mbehu_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'sebas', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/sebas/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs:/home/sebas/mbehu_restored_ws/install/diffdrive_arduino:/home/sebas/mbehu_restored_ws/install/serial:/home/sebas/mbehu_restored_ws/install/mbehu_bot:/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/sebas/mbehu_restored_ws/build/serial_motor_demo', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.209.34 57872 192.168.209.139 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sebas/mbehu_restored_ws/build/serial_motor_demo/prefix_override:/home/sebas/mbehu_restored_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/sebas/mbehu_restored_ws/build/serial_motor_demo:/home/sebas/mbehu_restored_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/ultrasonico:/home/sebas/mbehu_ws/install/ultrasonico/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050_pkg/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050:/home/sebas/mbehu_ws/install/mpu6050/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs:/home/sebas/mbehu_restored_ws/install/diffdrive_arduino:/home/sebas/mbehu_restored_ws/install/serial:/home/sebas/mbehu_restored_ws/install/mbehu_bot:/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver'}, 'shell': False}
+[22.700205] (-) TimerEvent: {}
+[22.801648] (-) TimerEvent: {}
+[22.903067] (-) TimerEvent: {}
+[23.004431] (-) TimerEvent: {}
+[23.105524] (-) TimerEvent: {}
+[23.206660] (-) TimerEvent: {}
+[23.307901] (-) TimerEvent: {}
+[23.409168] (-) TimerEvent: {}
+[23.510561] (-) TimerEvent: {}
+[23.612762] (-) TimerEvent: {}
+[23.715178] (-) TimerEvent: {}
+[23.817170] (-) TimerEvent: {}
+[23.919335] (-) TimerEvent: {}
+[24.021285] (-) TimerEvent: {}
+[24.123128] (-) TimerEvent: {}
+[24.224410] (-) TimerEvent: {}
+[24.325692] (-) TimerEvent: {}
+[24.426944] (-) TimerEvent: {}
+[24.528221] (-) TimerEvent: {}
+[24.629500] (-) TimerEvent: {}
+[24.730833] (-) TimerEvent: {}
+[24.832289] (-) TimerEvent: {}
+[24.933931] (-) TimerEvent: {}
+[25.040246] (-) TimerEvent: {}
+[25.141547] (-) TimerEvent: {}
+[25.243165] (-) TimerEvent: {}
+[25.344390] (-) TimerEvent: {}
+[25.445507] (-) TimerEvent: {}
+[25.546944] (-) TimerEvent: {}
+[25.648143] (-) TimerEvent: {}
+[25.749442] (-) TimerEvent: {}
+[25.834836] (serial_motor_demo) StdoutLine: {'line': b'running develop\n'}
+[25.849683] (-) TimerEvent: {}
+[25.951389] (-) TimerEvent: {}
+[26.052674] (-) TimerEvent: {}
+[26.153842] (-) TimerEvent: {}
+[26.255055] (-) TimerEvent: {}
+[26.356207] (-) TimerEvent: {}
+[26.457362] (-) TimerEvent: {}
+[26.558624] (-) TimerEvent: {}
+[26.659745] (-) TimerEvent: {}
+[26.760921] (-) TimerEvent: {}
+[26.862159] (-) TimerEvent: {}
+[26.963618] (-) TimerEvent: {}
+[27.064964] (-) TimerEvent: {}
+[27.166192] (-) TimerEvent: {}
+[27.268390] (-) TimerEvent: {}
+[27.370555] (-) TimerEvent: {}
+[27.471793] (-) TimerEvent: {}
+[27.574467] (-) TimerEvent: {}
+[27.677860] (-) TimerEvent: {}
+[27.780209] (-) TimerEvent: {}
+[27.881361] (-) TimerEvent: {}
+[27.892198] (serial_motor_demo) StdoutLine: {'line': b'running egg_info\n'}
+[27.893498] (serial_motor_demo) StdoutLine: {'line': b'writing serial_motor_demo.egg-info/PKG-INFO\n'}
+[27.895399] (serial_motor_demo) StdoutLine: {'line': b'writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt\n'}
+[27.897064] (serial_motor_demo) StdoutLine: {'line': b'writing entry points to serial_motor_demo.egg-info/entry_points.txt\n'}
+[27.898294] (serial_motor_demo) StdoutLine: {'line': b'writing requirements to serial_motor_demo.egg-info/requires.txt\n'}
+[27.899850] (serial_motor_demo) StdoutLine: {'line': b'writing top-level names to serial_motor_demo.egg-info/top_level.txt\n'}
+[27.981658] (-) TimerEvent: {}
+[28.082937] (-) TimerEvent: {}
+[28.184180] (-) TimerEvent: {}
+[28.267061] (serial_motor_demo) StdoutLine: {'line': b"reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'\n"}
+[28.279864] (serial_motor_demo) StdoutLine: {'line': b"writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'\n"}
+[28.284416] (-) TimerEvent: {}
+[28.386843] (-) TimerEvent: {}
+[28.487999] (-) TimerEvent: {}
+[28.589159] (-) TimerEvent: {}
+[28.687952] (serial_motor_demo) StdoutLine: {'line': b'running build_ext\n'}
+[28.689364] (-) TimerEvent: {}
+[28.695469] (serial_motor_demo) StdoutLine: {'line': b'Creating /home/sebas/mbehu_restored_ws/install/serial_motor_demo/lib/python3.8/site-packages/serial-motor-demo.egg-link (link to .)\n'}
+[28.702967] (serial_motor_demo) StdoutLine: {'line': b'Installing driver script to /home/sebas/mbehu_restored_ws/install/serial_motor_demo/lib/serial_motor_demo\n'}
+[28.704741] (serial_motor_demo) StdoutLine: {'line': b'Installing gui script to /home/sebas/mbehu_restored_ws/install/serial_motor_demo/lib/serial_motor_demo\n'}
+[28.707454] (serial_motor_demo) StdoutLine: {'line': b'\n'}
+[28.708786] (serial_motor_demo) StdoutLine: {'line': b'Installed /home/sebas/mbehu_restored_ws/build/serial_motor_demo\n'}
+[28.709690] (serial_motor_demo) StdoutLine: {'line': b'running install_data\n'}
+[28.789712] (-) TimerEvent: {}
+[28.891606] (-) TimerEvent: {}
+[28.909705] (serial_motor_demo) CommandEnded: {'returncode': 0}
+[28.996990] (-) TimerEvent: {}
+[29.060638] (serial_motor_demo) JobEnded: {'identifier': 'serial_motor_demo', 'rc': 0}
+[29.068464] (-) EventReactorShutdown: {}

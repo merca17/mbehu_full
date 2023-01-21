@@ -1,0 +1,44 @@
+[0.236s] Invoking command in '/home/sebas/mbehu_restored_ws/build/mbehu_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --build /home/sebas/mbehu_restored_ws/build/mbehu_bot -- -j4 -l4
+[1.175s] Invoked command in '/home/sebas/mbehu_restored_ws/build/mbehu_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --build /home/sebas/mbehu_restored_ws/build/mbehu_bot -- -j4 -l4
+[2.369s] Invoking command in '/home/sebas/mbehu_restored_ws/build/mbehu_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --install /home/sebas/mbehu_restored_ws/build/mbehu_bot
+[2.587s] -- Install configuration: ""
+[2.591s] -- Execute custom install script
+[2.614s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/config/drive_mbehu.rviz
+[2.625s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/config/empty.yaml
+[2.639s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/config/gaz_ros2_ctl_use_sim.yaml
+[2.649s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/config/gazebo_params.yaml
+[2.664s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/config/joystick.yaml
+[2.673s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/config/mapper_params_online_async.yaml
+[2.730s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/config/my_controllers.yaml
+[2.737s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/config/nav2_params.yaml
+[2.739s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/config/twist_mux.yaml
+[2.742s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/description/gazebo_control.xacro
+[2.752s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/description/inertial_macros.xacro
+[2.754s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/description/lidar.xacro
+[2.756s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/description/robot.urdf.xacro
+[2.758s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/description/robot_core.xacro
+[2.759s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/description/ros2_control.xacro
+[2.760s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/launch/joystick.launch.py
+[2.762s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/launch/launch_robot.launch.py
+[2.763s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/launch/launch_sim.launch.py
+[2.764s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/launch/localization_launch.py
+[2.766s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/launch/navigation_launch.py
+[2.767s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/launch/rsp.launch.py
+[2.768s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/worlds/empty.world
+[2.770s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/worlds/world1.world
+[2.771s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/ament_index/resource_index/package_run_dependencies/mbehu_bot
+[2.773s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/ament_index/resource_index/parent_prefix_path/mbehu_bot
+[2.774s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/environment/ament_prefix_path.sh
+[2.776s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/environment/ament_prefix_path.dsv
+[2.786s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/environment/path.sh
+[2.788s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/environment/path.dsv
+[2.795s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/local_setup.bash
+[2.798s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/local_setup.sh
+[2.802s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/local_setup.zsh
+[2.807s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/local_setup.dsv
+[2.812s] -- Symlinking: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/package.dsv
+[3.023s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/ament_index/resource_index/packages/mbehu_bot
+[3.028s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/cmake/mbehu_botConfig.cmake
+[3.032s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/cmake/mbehu_botConfig-version.cmake
+[3.036s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/package.xml
+[3.075s] Invoked command in '/home/sebas/mbehu_restored_ws/build/mbehu_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --install /home/sebas/mbehu_restored_ws/build/mbehu_bot

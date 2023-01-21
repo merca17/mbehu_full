@@ -1,0 +1,94 @@
+[0.150s] Invoking command in '/home/sebas/mbehu_restored_ws/build/ldlidar_sl_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake /home/sebas/mbehu_restored_ws/src/ldlidar_sl_ros2 -DCMAKE_INSTALL_PREFIX=/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2
+[1.342s] -- The C compiler identification is GNU 9.4.0
+[2.403s] -- The CXX compiler identification is GNU 9.4.0
+[2.574s] -- Check for working C compiler: /usr/bin/cc
+[3.455s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.472s] -- Detecting C compiler ABI info
+[4.369s] -- Detecting C compiler ABI info - done
+[4.480s] -- Detecting C compile features
+[4.483s] -- Detecting C compile features - done
+[4.511s] -- Check for working CXX compiler: /usr/bin/c++
+[5.377s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.385s] -- Detecting CXX compiler ABI info
+[5.966s] -- Detecting CXX compiler ABI info - done
+[6.010s] -- Detecting CXX compile features
+[6.016s] -- Detecting CXX compile features - done
+[6.082s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[6.352s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[6.353s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[9.822s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[10.604s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.737s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[11.740s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[12.127s] -- Found FastRTPS: /opt/ros/foxy/include  
+[14.972s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[16.443s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[16.459s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[16.475s] -- Looking for pthread.h
+[17.496s] -- Looking for pthread.h - found
+[17.498s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[18.373s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[18.374s] -- Looking for pthread_create in pthreads
+[19.125s] -- Looking for pthread_create in pthreads - not found
+[19.126s] -- Looking for pthread_create in pthread
+[20.011s] -- Looking for pthread_create in pthread - found
+[20.017s] -- Found Threads: TRUE  
+[21.362s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[22.172s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[22.883s] -- Added test 'copyright' to check source files copyright and LICENSE
+[22.945s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[22.950s] -- Configured cppcheck include dirs: /home/sebas/mbehu_restored_ws/src/ldlidar_sl_ros2/include;/home/sebas/mbehu_restored_ws/src/ldlidar_sl_ros2/ldlidar_driver/include/core;/home/sebas/mbehu_restored_ws/src/ldlidar_sl_ros2/ldlidar_driver/include/dataprocess;/home/sebas/mbehu_restored_ws/src/ldlidar_sl_ros2/ldlidar_driver/include/filter;/home/sebas/mbehu_restored_ws/src/ldlidar_sl_ros2/ldlidar_driver/include/logger;/home/sebas/mbehu_restored_ws/src/ldlidar_sl_ros2/ldlidar_driver/include/serialcom
+[22.950s] -- Configured cppcheck exclude dirs and/or files: 
+[23.010s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[23.011s] -- Configured cpplint exclude dirs and/or files: 
+[23.021s] -- Added test 'flake8' to check Python code syntax and style conventions
+[23.040s] -- Added test 'lint_cmake' to check CMake code style
+[23.052s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[23.112s] -- Added test 'uncrustify' to check C / C++ code style
+[23.112s] -- Configured uncrustify additional arguments: 
+[23.123s] -- Added test 'xmllint' to check XML markup files
+[23.154s] -- Configuring done
+[23.212s] -- Generating done
+[23.222s] -- Build files have been written to: /home/sebas/mbehu_restored_ws/build/ldlidar_sl_ros2
+[23.276s] Invoked command in '/home/sebas/mbehu_restored_ws/build/ldlidar_sl_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake /home/sebas/mbehu_restored_ws/src/ldlidar_sl_ros2 -DCMAKE_INSTALL_PREFIX=/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2
+[23.278s] Invoking command in '/home/sebas/mbehu_restored_ws/build/ldlidar_sl_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --build /home/sebas/mbehu_restored_ws/build/ldlidar_sl_ros2 -- -j4 -l4
+[23.550s] [35m[1mScanning dependencies of target ldlidar_sl_ros2_node[0m
+[24.253s] [ 12%] [32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/src/demo.cpp.o[0m
+[24.264s] [ 25%] [32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/ldlidar_driver/src/dataprocess/lipkg.cpp.o[0m
+[24.296s] [ 50%] [32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/ldlidar_driver/src/core/ldlidar_driver.cpp.o[0m
+[24.307s] [ 50%] [32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/ldlidar_driver/src/dataprocess/sl_transform.cpp.o[0m
+[30.042s] [ 62%] [32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/ldlidar_driver/src/filter/slbf.cpp.o[0m
+[32.077s] [ 75%] [32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/ldlidar_driver/src/logger/log_module.cpp.o[0m
+[33.004s] [ 87%] [32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/ldlidar_driver/src/serialcom/serial_interface_linux.cpp.o[0m
+[51.970s] [100%] [32m[1mLinking CXX executable ldlidar_sl_ros2_node[0m
+[53.326s] [100%] Built target ldlidar_sl_ros2_node
+[53.374s] Invoked command in '/home/sebas/mbehu_restored_ws/build/ldlidar_sl_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --build /home/sebas/mbehu_restored_ws/build/ldlidar_sl_ros2 -- -j4 -l4
+[53.610s] Invoking command in '/home/sebas/mbehu_restored_ws/build/ldlidar_sl_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --install /home/sebas/mbehu_restored_ws/build/ldlidar_sl_ros2
+[53.653s] -- Install configuration: ""
+[53.654s] -- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/lib/ldlidar_sl_ros2/ldlidar_sl_ros2_node
+[53.665s] -- Set runtime path of "/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/lib/ldlidar_sl_ros2/ldlidar_sl_ros2_node" to ""
+[53.666s] -- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//launch
+[53.667s] -- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//launch/ld14.launch.py
+[53.668s] -- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//launch/viewer_ld14.launch.py
+[53.669s] -- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//rviz2
+[53.670s] -- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//rviz2/ldlidar.rviz
+[53.671s] -- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//scripts
+[53.672s] -- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//scripts/ldlidar.rules
+[53.673s] -- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//scripts/delete_udev_rules.sh
+[53.673s] -- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//scripts/create_udev_rules.sh
+[53.675s] -- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ament_index/resource_index/package_run_dependencies/ldlidar_sl_ros2
+[53.677s] -- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ament_index/resource_index/parent_prefix_path/ldlidar_sl_ros2
+[53.679s] -- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/environment/ament_prefix_path.sh
+[53.680s] -- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/environment/ament_prefix_path.dsv
+[53.681s] -- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/environment/path.sh
+[53.683s] -- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/environment/path.dsv
+[53.684s] -- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/local_setup.bash
+[53.686s] -- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/local_setup.sh
+[53.687s] -- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/local_setup.zsh
+[53.688s] -- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/local_setup.dsv
+[53.690s] -- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.dsv
+[53.691s] -- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ament_index/resource_index/packages/ldlidar_sl_ros2
+[53.693s] -- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/cmake/ldlidar_sl_ros2Config.cmake
+[53.694s] -- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/cmake/ldlidar_sl_ros2Config-version.cmake
+[53.696s] -- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.xml
+[53.713s] Invoked command in '/home/sebas/mbehu_restored_ws/build/ldlidar_sl_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --install /home/sebas/mbehu_restored_ws/build/ldlidar_sl_ros2

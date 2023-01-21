@@ -1,0 +1,4 @@
+source;share/mbehu_bot/local_setup.bash
+source;share/mbehu_bot/local_setup.dsv
+source;share/mbehu_bot/local_setup.sh
+source;share/mbehu_bot/local_setup.zsh

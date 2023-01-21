@@ -1,0 +1,18 @@
+[3.846s] Invoking command in '/home/sebas/mbehu_restored_ws/build/serial_motor_demo': AMENT_PREFIX_PATH=/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sebas/mbehu_restored_ws/build/serial_motor_demo/prefix_override:/home/sebas/mbehu_restored_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sebas/mbehu_restored_ws/build/serial_motor_demo/build --no-deps install_data
+[5.318s] running develop
+[6.146s] running egg_info
+[6.147s] writing serial_motor_demo.egg-info/PKG-INFO
+[6.148s] writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt
+[6.148s] writing entry points to serial_motor_demo.egg-info/entry_points.txt
+[6.149s] writing requirements to serial_motor_demo.egg-info/requires.txt
+[6.150s] writing top-level names to serial_motor_demo.egg-info/top_level.txt
+[6.305s] reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[6.309s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[6.509s] running build_ext
+[6.511s] Creating /home/sebas/mbehu_restored_ws/install/serial_motor_demo/lib/python3.8/site-packages/serial-motor-demo.egg-link (link to .)
+[6.515s] Installing driver script to /home/sebas/mbehu_restored_ws/install/serial_motor_demo/lib/serial_motor_demo
+[6.516s] Installing gui script to /home/sebas/mbehu_restored_ws/install/serial_motor_demo/lib/serial_motor_demo
+[6.518s] 
+[6.519s] Installed /home/sebas/mbehu_restored_ws/build/serial_motor_demo
+[6.520s] running install_data
+[6.668s] Invoked command in '/home/sebas/mbehu_restored_ws/build/serial_motor_demo' returned '0': AMENT_PREFIX_PATH=/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sebas/mbehu_restored_ws/build/serial_motor_demo/prefix_override:/home/sebas/mbehu_restored_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sebas/mbehu_restored_ws/build/serial_motor_demo/build --no-deps install_data

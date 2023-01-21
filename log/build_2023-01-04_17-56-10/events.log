@@ -1,0 +1,1165 @@
+[0.000000] (-) TimerEvent: {}
+[0.001194] (ldlidar_sl_ros2) JobQueued: {'identifier': 'ldlidar_sl_ros2', 'dependencies': OrderedDict()}
+[0.001584] (mbehu_bot) JobQueued: {'identifier': 'mbehu_bot', 'dependencies': OrderedDict()}
+[0.002509] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.003213] (diffdrive_arduino) JobQueued: {'identifier': 'diffdrive_arduino', 'dependencies': OrderedDict([('serial', '/home/sebas/mbehu_restored_ws/install/serial')])}
+[0.004600] (serial) JobStarted: {'identifier': 'serial'}
+[0.081895] (ldlidar_sl_ros2) JobStarted: {'identifier': 'ldlidar_sl_ros2'}
+[0.101084] (-) TimerEvent: {}
+[0.128395] (mbehu_bot) JobStarted: {'identifier': 'mbehu_bot'}
+[0.188897] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[0.189944] (serial) Command: {'cmd': ['/usr/bin/cmake', '/home/sebas/mbehu_restored_ws/src/serial', '-DCMAKE_INSTALL_PREFIX=/home/sebas/mbehu_restored_ws/install/serial'], 'cwd': '/home/sebas/mbehu_restored_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sebas'), ('SSH_CLIENT', '192.168.0.26 48836 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sebas/mbehu_ws/install/diffdrive_arduino/lib:/home/sebas/mbehu_ws/install/serial/lib:/home/sebas/mbehu_ws/install/imu_driver/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sebas'), ('OLDPWD', '/home/sebas/mbehu_restored_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('UBUNTU_MENUPROXY', '1'), ('COLCON_PREFIX_PATH', '/home/sebas/mbehu_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sebas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sebas/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sebas/mbehu_restored_ws/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.26 48836 192.168.0.10 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sebas/mbehu_ws/build/ultrasonico:/home/sebas/mbehu_ws/install/ultrasonico/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050_pkg/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050:/home/sebas/mbehu_ws/install/mpu6050/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy')]), 'shell': False}
+[0.203905] (-) TimerEvent: {}
+[0.220706] (ldlidar_sl_ros2) JobProgress: {'identifier': 'ldlidar_sl_ros2', 'progress': 'cmake'}
+[0.221745] (ldlidar_sl_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/sebas/mbehu_restored_ws/src/ldlidar_sl_ros2', '-DCMAKE_INSTALL_PREFIX=/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2'], 'cwd': '/home/sebas/mbehu_restored_ws/build/ldlidar_sl_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sebas'), ('SSH_CLIENT', '192.168.0.26 48836 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sebas/mbehu_ws/install/diffdrive_arduino/lib:/home/sebas/mbehu_ws/install/serial/lib:/home/sebas/mbehu_ws/install/imu_driver/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sebas'), ('OLDPWD', '/home/sebas/mbehu_restored_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('UBUNTU_MENUPROXY', '1'), ('COLCON_PREFIX_PATH', '/home/sebas/mbehu_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sebas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sebas/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sebas/mbehu_restored_ws/build/ldlidar_sl_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.26 48836 192.168.0.10 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sebas/mbehu_ws/build/ultrasonico:/home/sebas/mbehu_ws/install/ultrasonico/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050_pkg/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050:/home/sebas/mbehu_ws/install/mpu6050/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy')]), 'shell': False}
+[0.251464] (mbehu_bot) JobProgress: {'identifier': 'mbehu_bot', 'progress': 'cmake'}
+[0.252651] (mbehu_bot) Command: {'cmd': ['/usr/bin/cmake', '/home/sebas/mbehu_restored_ws/src/mbehu_bot', '-DCMAKE_INSTALL_PREFIX=/home/sebas/mbehu_restored_ws/install/mbehu_bot'], 'cwd': '/home/sebas/mbehu_restored_ws/build/mbehu_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sebas'), ('SSH_CLIENT', '192.168.0.26 48836 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sebas/mbehu_ws/install/diffdrive_arduino/lib:/home/sebas/mbehu_ws/install/serial/lib:/home/sebas/mbehu_ws/install/imu_driver/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sebas'), ('OLDPWD', '/home/sebas/mbehu_restored_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('UBUNTU_MENUPROXY', '1'), ('COLCON_PREFIX_PATH', '/home/sebas/mbehu_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sebas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sebas/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sebas/mbehu_restored_ws/build/mbehu_bot'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.26 48836 192.168.0.10 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sebas/mbehu_ws/build/ultrasonico:/home/sebas/mbehu_ws/install/ultrasonico/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050_pkg/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050:/home/sebas/mbehu_ws/install/mpu6050/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy')]), 'shell': False}
+[0.304164] (-) TimerEvent: {}
+[0.405471] (-) TimerEvent: {}
+[0.506907] (-) TimerEvent: {}
+[0.607798] (-) TimerEvent: {}
+[0.709991] (-) TimerEvent: {}
+[0.811124] (-) TimerEvent: {}
+[0.912256] (-) TimerEvent: {}
+[1.014037] (-) TimerEvent: {}
+[1.114987] (-) TimerEvent: {}
+[1.216093] (-) TimerEvent: {}
+[1.317845] (-) TimerEvent: {}
+[1.418911] (-) TimerEvent: {}
+[1.423860] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.424923] (mbehu_bot) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.425579] (serial) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.519206] (-) TimerEvent: {}
+[1.620138] (-) TimerEvent: {}
+[1.721186] (-) TimerEvent: {}
+[1.822010] (-) TimerEvent: {}
+[1.922825] (-) TimerEvent: {}
+[2.023863] (-) TimerEvent: {}
+[2.124988] (-) TimerEvent: {}
+[2.227353] (-) TimerEvent: {}
+[2.329172] (-) TimerEvent: {}
+[2.430785] (-) TimerEvent: {}
+[2.469730] (serial) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[2.479327] (mbehu_bot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[2.484819] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[2.531020] (-) TimerEvent: {}
+[2.632444] (-) TimerEvent: {}
+[2.651460] (serial) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.655722] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.656852] (mbehu_bot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.732743] (-) TimerEvent: {}
+[2.835644] (-) TimerEvent: {}
+[2.938428] (-) TimerEvent: {}
+[3.040235] (-) TimerEvent: {}
+[3.142260] (-) TimerEvent: {}
+[3.243988] (-) TimerEvent: {}
+[3.349326] (-) TimerEvent: {}
+[3.457375] (-) TimerEvent: {}
+[3.537274] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[3.551404] (mbehu_bot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[3.554354] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.560967] (mbehu_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.562240] (-) TimerEvent: {}
+[3.563253] (serial) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[3.572929] (serial) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.662536] (-) TimerEvent: {}
+[3.764344] (-) TimerEvent: {}
+[3.865965] (-) TimerEvent: {}
+[3.967303] (-) TimerEvent: {}
+[4.068739] (-) TimerEvent: {}
+[4.170193] (-) TimerEvent: {}
+[4.272421] (-) TimerEvent: {}
+[4.364540] (mbehu_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.372806] (-) TimerEvent: {}
+[4.450577] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.456137] (serial) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.473174] (-) TimerEvent: {}
+[4.511180] (mbehu_bot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.516065] (mbehu_bot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.551194] (mbehu_bot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[4.561532] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.565387] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.573433] (-) TimerEvent: {}
+[4.581458] (serial) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.586708] (serial) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.592520] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[4.616282] (serial) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[4.673717] (-) TimerEvent: {}
+[4.776350] (-) TimerEvent: {}
+[4.878933] (-) TimerEvent: {}
+[4.981803] (-) TimerEvent: {}
+[5.085167] (-) TimerEvent: {}
+[5.187969] (-) TimerEvent: {}
+[5.291036] (-) TimerEvent: {}
+[5.393817] (-) TimerEvent: {}
+[5.418659] (mbehu_bot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[5.428069] (mbehu_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.459388] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[5.466839] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.488852] (serial) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[5.494017] (-) TimerEvent: {}
+[5.495444] (serial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.594219] (-) TimerEvent: {}
+[5.696051] (-) TimerEvent: {}
+[5.798583] (-) TimerEvent: {}
+[5.904199] (-) TimerEvent: {}
+[6.006555] (-) TimerEvent: {}
+[6.048259] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.056579] (serial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.066617] (mbehu_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.092634] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.098617] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.106702] (-) TimerEvent: {}
+[6.118197] (serial) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.119008] (serial) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.121913] (mbehu_bot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.124221] (mbehu_bot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.163438] (serial) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[6.164127] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[6.164768] (mbehu_bot) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[6.207053] (-) TimerEvent: {}
+[6.309407] (-) TimerEvent: {}
+[6.410473] (-) TimerEvent: {}
+[6.431768] (serial) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[6.433149] (mbehu_bot) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[6.433749] (mbehu_bot) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.434342] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[6.434897] (serial) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.435368] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.510604] (-) TimerEvent: {}
+[6.611837] (-) TimerEvent: {}
+[6.712618] (-) TimerEvent: {}
+[6.814357] (-) TimerEvent: {}
+[6.915303] (-) TimerEvent: {}
+[7.016758] (-) TimerEvent: {}
+[7.118782] (-) TimerEvent: {}
+[7.220278] (-) TimerEvent: {}
+[7.321751] (-) TimerEvent: {}
+[7.423526] (-) TimerEvent: {}
+[7.525270] (-) TimerEvent: {}
+[7.626854] (-) TimerEvent: {}
+[7.728507] (-) TimerEvent: {}
+[7.830134] (-) TimerEvent: {}
+[7.931700] (-) TimerEvent: {}
+[8.033232] (-) TimerEvent: {}
+[8.134864] (-) TimerEvent: {}
+[8.236483] (-) TimerEvent: {}
+[8.338330] (-) TimerEvent: {}
+[8.440375] (-) TimerEvent: {}
+[8.542420] (-) TimerEvent: {}
+[8.644039] (-) TimerEvent: {}
+[8.745742] (-) TimerEvent: {}
+[8.847963] (-) TimerEvent: {}
+[8.949567] (-) TimerEvent: {}
+[9.050825] (-) TimerEvent: {}
+[9.152065] (-) TimerEvent: {}
+[9.253416] (-) TimerEvent: {}
+[9.354682] (-) TimerEvent: {}
+[9.457226] (-) TimerEvent: {}
+[9.561308] (-) TimerEvent: {}
+[9.662721] (-) TimerEvent: {}
+[9.765845] (-) TimerEvent: {}
+[9.848897] (mbehu_bot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[9.852871] (serial) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 0.9.11 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)\n'}
+[9.866100] (-) TimerEvent: {}
+[9.904070] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[9.966357] (-) TimerEvent: {}
+[10.067679] (-) TimerEvent: {}
+[10.075011] (serial) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  \n'}
+[10.161545] (serial) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[10.167858] (-) TimerEvent: {}
+[10.175611] (serial) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[10.268108] (-) TimerEvent: {}
+[10.369108] (-) TimerEvent: {}
+[10.469950] (-) TimerEvent: {}
+[10.570785] (-) TimerEvent: {}
+[10.621586] (serial) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[10.623824] (serial) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[10.671067] (-) TimerEvent: {}
+[10.685667] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.751509] (mbehu_bot) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[10.771407] (-) TimerEvent: {}
+[10.819288] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[10.845629] (mbehu_bot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[10.859873] (mbehu_bot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.869683] (mbehu_bot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[10.871553] (-) TimerEvent: {}
+[10.913976] (mbehu_bot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.932036] (mbehu_bot) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.942878] (mbehu_bot) StdoutLine: {'line': b'-- Generating done\n'}
+[10.947255] (mbehu_bot) StdoutLine: {'line': b'-- Build files have been written to: /home/sebas/mbehu_restored_ws/build/mbehu_bot\n'}
+[10.963412] (mbehu_bot) CommandEnded: {'returncode': 0}
+[10.966160] (mbehu_bot) JobProgress: {'identifier': 'mbehu_bot', 'progress': 'build'}
+[10.969498] (mbehu_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sebas/mbehu_restored_ws/build/mbehu_bot', '--', '-j4', '-l4'], 'cwd': '/home/sebas/mbehu_restored_ws/build/mbehu_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sebas'), ('SSH_CLIENT', '192.168.0.26 48836 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sebas/mbehu_ws/install/diffdrive_arduino/lib:/home/sebas/mbehu_ws/install/serial/lib:/home/sebas/mbehu_ws/install/imu_driver/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sebas'), ('OLDPWD', '/home/sebas/mbehu_restored_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('UBUNTU_MENUPROXY', '1'), ('COLCON_PREFIX_PATH', '/home/sebas/mbehu_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sebas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sebas/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sebas/mbehu_restored_ws/build/mbehu_bot'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.26 48836 192.168.0.10 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sebas/mbehu_ws/build/ultrasonico:/home/sebas/mbehu_ws/install/ultrasonico/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050_pkg/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050:/home/sebas/mbehu_ws/install/mpu6050/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy')]), 'shell': False}
+[10.981357] (-) TimerEvent: {}
+[11.042455] (serial) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[11.044455] (serial) StdoutLine: {'line': b'-- Check if compiler accepts -pthread\n'}
+[11.081462] (-) TimerEvent: {}
+[11.182648] (-) TimerEvent: {}
+[11.202609] (mbehu_bot) CommandEnded: {'returncode': 0}
+[11.282817] (-) TimerEvent: {}
+[11.341151] (mbehu_bot) JobProgress: {'identifier': 'mbehu_bot', 'progress': 'install'}
+[11.383417] (-) TimerEvent: {}
+[11.396107] (mbehu_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sebas/mbehu_restored_ws/build/mbehu_bot'], 'cwd': '/home/sebas/mbehu_restored_ws/build/mbehu_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sebas'), ('SSH_CLIENT', '192.168.0.26 48836 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sebas/mbehu_ws/install/diffdrive_arduino/lib:/home/sebas/mbehu_ws/install/serial/lib:/home/sebas/mbehu_ws/install/imu_driver/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sebas'), ('OLDPWD', '/home/sebas/mbehu_restored_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('UBUNTU_MENUPROXY', '1'), ('COLCON_PREFIX_PATH', '/home/sebas/mbehu_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sebas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sebas/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sebas/mbehu_restored_ws/build/mbehu_bot'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.26 48836 192.168.0.10 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sebas/mbehu_ws/build/ultrasonico:/home/sebas/mbehu_ws/install/ultrasonico/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050_pkg/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050:/home/sebas/mbehu_ws/install/mpu6050/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy')]), 'shell': False}
+[11.448267] (serial) StdoutLine: {'line': b'-- Check if compiler accepts -pthread - yes\n'}
+[11.450747] (mbehu_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.453238] (mbehu_bot) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/config\n'}
+[11.456820] (mbehu_bot) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/config/drive_mbehu.rviz\n'}
+[11.459483] (mbehu_bot) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/config/my_controllers.yaml\n'}
+[11.461772] (serial) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[11.463829] (mbehu_bot) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/config/empty.yaml\n'}
+[11.466287] (mbehu_bot) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/config/mapper_params_online_async.yaml\n'}
+[11.468308] (mbehu_bot) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/config/gazebo_params.yaml\n'}
+[11.469649] (mbehu_bot) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/config/gaz_ros2_ctl_use_sim.yaml\n'}
+[11.471053] (mbehu_bot) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/description\n'}
+[11.472920] (mbehu_bot) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/description/robot.urdf.xacro\n'}
+[11.475491] (mbehu_bot) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/description/lidar.xacro\n'}
+[11.478111] (mbehu_bot) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/description/gazebo_control.xacro\n'}
+[11.479947] (mbehu_bot) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/description/robot_core.xacro\n'}
+[11.482487] (mbehu_bot) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/description/ros2_control.xacro\n'}
+[11.483852] (-) TimerEvent: {}
+[11.486097] (mbehu_bot) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/description/inertial_macros.xacro\n'}
+[11.488236] (mbehu_bot) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/launch\n'}
+[11.490696] (mbehu_bot) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/launch/launch_sim.launch.py\n'}
+[11.494136] (mbehu_bot) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/launch/rsp.launch.py\n'}
+[11.497150] (mbehu_bot) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/launch/launch_robot.launch.py\n'}
+[11.500100] (mbehu_bot) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/worlds\n'}
+[11.504148] (mbehu_bot) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/worlds/world1.world\n'}
+[11.505346] (mbehu_bot) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/worlds/empty.world\n'}
+[11.505746] (mbehu_bot) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/ament_index/resource_index/package_run_dependencies/mbehu_bot\n'}
+[11.506081] (mbehu_bot) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/ament_index/resource_index/parent_prefix_path/mbehu_bot\n'}
+[11.506408] (mbehu_bot) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/environment/ament_prefix_path.sh\n'}
+[11.506730] (mbehu_bot) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/environment/ament_prefix_path.dsv\n'}
+[11.511935] (mbehu_bot) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/environment/path.sh\n'}
+[11.512513] (mbehu_bot) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/environment/path.dsv\n'}
+[11.512987] (mbehu_bot) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/local_setup.bash\n'}
+[11.513702] (mbehu_bot) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/local_setup.sh\n'}
+[11.514315] (mbehu_bot) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/local_setup.zsh\n'}
+[11.514849] (mbehu_bot) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/local_setup.dsv\n'}
+[11.515480] (mbehu_bot) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/package.dsv\n'}
+[11.516156] (mbehu_bot) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/ament_index/resource_index/packages/mbehu_bot\n'}
+[11.516666] (mbehu_bot) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/cmake/mbehu_botConfig.cmake\n'}
+[11.517316] (mbehu_bot) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/cmake/mbehu_botConfig-version.cmake\n'}
+[11.519292] (mbehu_bot) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/package.xml\n'}
+[11.520954] (mbehu_bot) CommandEnded: {'returncode': 0}
+[11.584305] (-) TimerEvent: {}
+[11.685422] (-) TimerEvent: {}
+[11.792099] (-) TimerEvent: {}
+[11.820537] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[11.872380] (serial) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.876472] (mbehu_bot) JobEnded: {'identifier': 'mbehu_bot', 'rc': 0}
+[11.892281] (-) TimerEvent: {}
+[11.934190] (serial) StdoutLine: {'line': b'-- Generating done\n'}
+[11.942649] (serial) StdoutLine: {'line': b'-- Build files have been written to: /home/sebas/mbehu_restored_ws/build/serial\n'}
+[11.960160] (serial) CommandEnded: {'returncode': 0}
+[11.962451] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[11.963861] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sebas/mbehu_restored_ws/build/serial', '--', '-j4', '-l4'], 'cwd': '/home/sebas/mbehu_restored_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sebas'), ('SSH_CLIENT', '192.168.0.26 48836 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sebas/mbehu_ws/install/diffdrive_arduino/lib:/home/sebas/mbehu_ws/install/serial/lib:/home/sebas/mbehu_ws/install/imu_driver/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sebas'), ('OLDPWD', '/home/sebas/mbehu_restored_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('UBUNTU_MENUPROXY', '1'), ('COLCON_PREFIX_PATH', '/home/sebas/mbehu_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sebas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sebas/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sebas/mbehu_restored_ws/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.26 48836 192.168.0.10 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sebas/mbehu_ws/build/ultrasonico:/home/sebas/mbehu_ws/install/ultrasonico/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050_pkg/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050:/home/sebas/mbehu_ws/install/mpu6050/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy')]), 'shell': False}
+[11.992539] (-) TimerEvent: {}
+[12.093540] (-) TimerEvent: {}
+[12.183310] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest\x1b[0m\n'}
+[12.193738] (-) TimerEvent: {}
+[12.209529] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[12.219099] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial\x1b[0m\n'}
+[12.236767] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest_main\x1b[0m\n'}
+[12.294012] (-) TimerEvent: {}
+[12.371236] (serial) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o\x1b[0m\n'}
+[12.394292] (-) TimerEvent: {}
+[12.461994] (serial) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o\x1b[0m\n'}
+[12.494623] (-) TimerEvent: {}
+[12.539954] (serial) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[12.549795] (serial) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[12.595161] (-) TimerEvent: {}
+[12.696963] (-) TimerEvent: {}
+[12.798753] (-) TimerEvent: {}
+[12.900514] (-) TimerEvent: {}
+[13.002347] (-) TimerEvent: {}
+[13.103877] (-) TimerEvent: {}
+[13.205948] (-) TimerEvent: {}
+[13.307567] (-) TimerEvent: {}
+[13.516074] (-) TimerEvent: {}
+[13.617359] (-) TimerEvent: {}
+[13.718690] (-) TimerEvent: {}
+[13.821198] (-) TimerEvent: {}
+[13.922749] (-) TimerEvent: {}
+[14.024315] (-) TimerEvent: {}
+[14.125914] (-) TimerEvent: {}
+[14.227686] (-) TimerEvent: {}
+[14.331365] (-) TimerEvent: {}
+[14.434165] (-) TimerEvent: {}
+[14.536810] (-) TimerEvent: {}
+[14.639629] (-) TimerEvent: {}
+[14.742355] (-) TimerEvent: {}
+[14.845165] (-) TimerEvent: {}
+[14.947920] (-) TimerEvent: {}
+[15.050836] (-) TimerEvent: {}
+[15.053945] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[15.151104] (-) TimerEvent: {}
+[15.252568] (-) TimerEvent: {}
+[15.355303] (-) TimerEvent: {}
+[15.458308] (-) TimerEvent: {}
+[15.561983] (-) TimerEvent: {}
+[15.663691] (-) TimerEvent: {}
+[15.765858] (-) TimerEvent: {}
+[15.868288] (-) TimerEvent: {}
+[15.970147] (-) TimerEvent: {}
+[16.071344] (-) TimerEvent: {}
+[16.173307] (-) TimerEvent: {}
+[16.275107] (-) TimerEvent: {}
+[16.376924] (-) TimerEvent: {}
+[16.478629] (-) TimerEvent: {}
+[16.524977] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[16.541696] (ldlidar_sl_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[16.557044] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[16.578831] (-) TimerEvent: {}
+[16.680348] (-) TimerEvent: {}
+[16.781854] (-) TimerEvent: {}
+[16.883250] (-) TimerEvent: {}
+[16.984298] (-) TimerEvent: {}
+[17.085429] (-) TimerEvent: {}
+[17.186368] (-) TimerEvent: {}
+[17.288133] (-) TimerEvent: {}
+[17.389937] (-) TimerEvent: {}
+[17.491856] (-) TimerEvent: {}
+[17.578482] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[17.580052] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[17.592176] (-) TimerEvent: {}
+[17.693220] (-) TimerEvent: {}
+[17.794433] (-) TimerEvent: {}
+[17.895819] (-) TimerEvent: {}
+[17.996960] (-) TimerEvent: {}
+[18.100077] (-) TimerEvent: {}
+[18.201337] (-) TimerEvent: {}
+[18.303081] (-) TimerEvent: {}
+[18.404190] (-) TimerEvent: {}
+[18.455096] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[18.456384] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[18.504365] (-) TimerEvent: {}
+[18.605696] (-) TimerEvent: {}
+[18.717280] (-) TimerEvent: {}
+[18.804613] (serial) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o\x1b[0m\n'}
+[18.817562] (-) TimerEvent: {}
+[18.919646] (-) TimerEvent: {}
+[19.021769] (-) TimerEvent: {}
+[19.123344] (-) TimerEvent: {}
+[19.205991] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[19.208430] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[19.223655] (-) TimerEvent: {}
+[19.325409] (-) TimerEvent: {}
+[19.427209] (-) TimerEvent: {}
+[19.528988] (-) TimerEvent: {}
+[19.630854] (-) TimerEvent: {}
+[19.732721] (-) TimerEvent: {}
+[19.834704] (-) TimerEvent: {}
+[19.945223] (-) TimerEvent: {}
+[20.046264] (-) TimerEvent: {}
+[20.092858] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[20.099632] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[20.146482] (-) TimerEvent: {}
+[20.248393] (-) TimerEvent: {}
+[20.350913] (-) TimerEvent: {}
+[20.453060] (-) TimerEvent: {}
+[20.471334] (serial) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[20.553395] (-) TimerEvent: {}
+[20.655557] (-) TimerEvent: {}
+[20.759172] (-) TimerEvent: {}
+[20.815405] (serial) StdoutLine: {'line': b'[ 42%] Built target gtest_main\n'}
+[20.859365] (-) TimerEvent: {}
+[20.961296] (-) TimerEvent: {}
+[21.063342] (-) TimerEvent: {}
+[21.173189] (-) TimerEvent: {}
+[21.275392] (-) TimerEvent: {}
+[21.385231] (-) TimerEvent: {}
+[21.444068] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[21.485428] (-) TimerEvent: {}
+[21.587330] (-) TimerEvent: {}
+[21.690308] (-) TimerEvent: {}
+[21.792106] (-) TimerEvent: {}
+[21.893765] (-) TimerEvent: {}
+[21.953884] (serial) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libserial.a\x1b[0m\n'}
+[21.994004] (-) TimerEvent: {}
+[22.095023] (-) TimerEvent: {}
+[22.176235] (serial) StdoutLine: {'line': b'[ 50%] Built target serial\n'}
+[22.195346] (-) TimerEvent: {}
+[22.247212] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_example\x1b[0m\n'}
+[22.254674] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[22.301277] (-) TimerEvent: {}
+[22.314183] (serial) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o\x1b[0m\n'}
+[22.401471] (-) TimerEvent: {}
+[22.502272] (-) TimerEvent: {}
+[22.603393] (-) TimerEvent: {}
+[22.704598] (-) TimerEvent: {}
+[22.809225] (-) TimerEvent: {}
+[22.917222] (-) TimerEvent: {}
+[22.964639] (ldlidar_sl_ros2) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[23.017442] (-) TimerEvent: {}
+[23.026874] (ldlidar_sl_ros2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[23.031871] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/sebas/mbehu_restored_ws/src/ldlidar_sl_ros2/include;/home/sebas/mbehu_restored_ws/src/ldlidar_sl_ros2/ldlidar_driver/include/core;/home/sebas/mbehu_restored_ws/src/ldlidar_sl_ros2/ldlidar_driver/include/dataprocess;/home/sebas/mbehu_restored_ws/src/ldlidar_sl_ros2/ldlidar_driver/include/filter;/home/sebas/mbehu_restored_ws/src/ldlidar_sl_ros2/ldlidar_driver/include/logger;/home/sebas/mbehu_restored_ws/src/ldlidar_sl_ros2/ldlidar_driver/include/serialcom\n'}
+[23.032810] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[23.091668] (ldlidar_sl_ros2) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[23.092898] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[23.103612] (ldlidar_sl_ros2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[23.117699] (-) TimerEvent: {}
+[23.122293] (ldlidar_sl_ros2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[23.134151] (ldlidar_sl_ros2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[23.193664] (ldlidar_sl_ros2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[23.194671] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[23.204934] (ldlidar_sl_ros2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[23.217890] (-) TimerEvent: {}
+[23.236493] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[23.293878] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[23.304006] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/sebas/mbehu_restored_ws/build/ldlidar_sl_ros2\n'}
+[23.318188] (-) TimerEvent: {}
+[23.357590] (ldlidar_sl_ros2) CommandEnded: {'returncode': 0}
+[23.359479] (ldlidar_sl_ros2) JobProgress: {'identifier': 'ldlidar_sl_ros2', 'progress': 'build'}
+[23.359731] (ldlidar_sl_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sebas/mbehu_restored_ws/build/ldlidar_sl_ros2', '--', '-j4', '-l4'], 'cwd': '/home/sebas/mbehu_restored_ws/build/ldlidar_sl_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sebas'), ('SSH_CLIENT', '192.168.0.26 48836 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sebas/mbehu_ws/install/diffdrive_arduino/lib:/home/sebas/mbehu_ws/install/serial/lib:/home/sebas/mbehu_ws/install/imu_driver/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sebas'), ('OLDPWD', '/home/sebas/mbehu_restored_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('UBUNTU_MENUPROXY', '1'), ('COLCON_PREFIX_PATH', '/home/sebas/mbehu_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sebas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sebas/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sebas/mbehu_restored_ws/build/ldlidar_sl_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.26 48836 192.168.0.10 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sebas/mbehu_ws/build/ultrasonico:/home/sebas/mbehu_ws/install/ultrasonico/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050_pkg/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050:/home/sebas/mbehu_ws/install/mpu6050/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy')]), 'shell': False}
+[23.418502] (-) TimerEvent: {}
+[23.519837] (-) TimerEvent: {}
+[23.620782] (-) TimerEvent: {}
+[23.631824] (ldlidar_sl_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ldlidar_sl_ros2_node\x1b[0m\n'}
+[23.720987] (-) TimerEvent: {}
+[23.822819] (-) TimerEvent: {}
+[23.924914] (-) TimerEvent: {}
+[24.025877] (-) TimerEvent: {}
+[24.127796] (-) TimerEvent: {}
+[24.228712] (-) TimerEvent: {}
+[24.332846] (-) TimerEvent: {}
+[24.334950] (ldlidar_sl_ros2) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/src/demo.cpp.o\x1b[0m\n'}
+[24.344601] (ldlidar_sl_ros2) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/ldlidar_driver/src/dataprocess/lipkg.cpp.o\x1b[0m\n'}
+[24.378341] (ldlidar_sl_ros2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/ldlidar_driver/src/core/ldlidar_driver.cpp.o\x1b[0m\n'}
+[24.388757] (ldlidar_sl_ros2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/ldlidar_driver/src/dataprocess/sl_transform.cpp.o\x1b[0m\n'}
+[24.420355] (serial) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX executable serial_example\x1b[0m\n'}
+[24.433189] (-) TimerEvent: {}
+[24.534609] (-) TimerEvent: {}
+[24.636019] (-) TimerEvent: {}
+[24.737264] (-) TimerEvent: {}
+[24.838265] (-) TimerEvent: {}
+[24.940210] (-) TimerEvent: {}
+[25.049350] (-) TimerEvent: {}
+[25.137624] (serial) StdoutLine: {'line': b'[ 64%] Built target serial_example\n'}
+[25.149600] (-) TimerEvent: {}
+[25.252510] (-) TimerEvent: {}
+[25.355166] (-) TimerEvent: {}
+[25.458399] (-) TimerEvent: {}
+[25.561540] (-) TimerEvent: {}
+[25.664381] (-) TimerEvent: {}
+[25.767181] (-) TimerEvent: {}
+[25.870011] (-) TimerEvent: {}
+[25.972961] (-) TimerEvent: {}
+[26.076123] (-) TimerEvent: {}
+[26.178893] (-) TimerEvent: {}
+[26.281808] (-) TimerEvent: {}
+[26.384711] (-) TimerEvent: {}
+[26.487625] (-) TimerEvent: {}
+[26.590540] (-) TimerEvent: {}
+[26.693274] (-) TimerEvent: {}
+[26.796091] (-) TimerEvent: {}
+[26.898985] (-) TimerEvent: {}
+[27.012732] (-) TimerEvent: {}
+[27.115825] (-) TimerEvent: {}
+[27.220211] (-) TimerEvent: {}
+[27.328152] (-) TimerEvent: {}
+[27.431231] (-) TimerEvent: {}
+[27.534190] (-) TimerEvent: {}
+[27.637301] (-) TimerEvent: {}
+[27.740864] (-) TimerEvent: {}
+[27.848180] (-) TimerEvent: {}
+[27.954781] (-) TimerEvent: {}
+[28.060980] (-) TimerEvent: {}
+[28.168939] (-) TimerEvent: {}
+[28.271924] (-) TimerEvent: {}
+[28.374049] (-) TimerEvent: {}
+[28.475958] (-) TimerEvent: {}
+[28.577771] (-) TimerEvent: {}
+[28.679590] (-) TimerEvent: {}
+[28.781440] (-) TimerEvent: {}
+[28.883527] (-) TimerEvent: {}
+[28.985431] (-) TimerEvent: {}
+[29.087118] (-) TimerEvent: {}
+[29.189215] (-) TimerEvent: {}
+[29.290927] (-) TimerEvent: {}
+[29.392805] (-) TimerEvent: {}
+[29.495670] (-) TimerEvent: {}
+[29.598967] (-) TimerEvent: {}
+[29.701043] (-) TimerEvent: {}
+[29.805239] (-) TimerEvent: {}
+[29.908107] (-) TimerEvent: {}
+[30.009287] (-) TimerEvent: {}
+[30.111050] (-) TimerEvent: {}
+[30.124565] (ldlidar_sl_ros2) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/ldlidar_driver/src/filter/slbf.cpp.o\x1b[0m\n'}
+[30.211312] (-) TimerEvent: {}
+[30.312285] (-) TimerEvent: {}
+[30.413199] (-) TimerEvent: {}
+[30.514054] (-) TimerEvent: {}
+[30.615021] (-) TimerEvent: {}
+[30.716754] (-) TimerEvent: {}
+[30.818691] (-) TimerEvent: {}
+[30.921491] (-) TimerEvent: {}
+[31.023380] (-) TimerEvent: {}
+[31.125377] (-) TimerEvent: {}
+[31.227108] (-) TimerEvent: {}
+[31.329109] (-) TimerEvent: {}
+[31.430822] (-) TimerEvent: {}
+[31.532597] (-) TimerEvent: {}
+[31.634702] (-) TimerEvent: {}
+[31.736588] (-) TimerEvent: {}
+[31.839501] (-) TimerEvent: {}
+[31.957245] (-) TimerEvent: {}
+[32.059165] (-) TimerEvent: {}
+[32.157506] (ldlidar_sl_ros2) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/ldlidar_driver/src/logger/log_module.cpp.o\x1b[0m\n'}
+[32.160660] (-) TimerEvent: {}
+[32.263840] (-) TimerEvent: {}
+[32.366571] (-) TimerEvent: {}
+[32.468753] (-) TimerEvent: {}
+[32.571097] (-) TimerEvent: {}
+[32.672088] (-) TimerEvent: {}
+[32.774083] (-) TimerEvent: {}
+[32.875956] (-) TimerEvent: {}
+[32.977116] (-) TimerEvent: {}
+[33.078149] (-) TimerEvent: {}
+[33.086374] (ldlidar_sl_ros2) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/ldlidar_driver/src/serialcom/serial_interface_linux.cpp.o\x1b[0m\n'}
+[33.178410] (-) TimerEvent: {}
+[33.280144] (-) TimerEvent: {}
+[33.381983] (-) TimerEvent: {}
+[33.483517] (-) TimerEvent: {}
+[33.585654] (-) TimerEvent: {}
+[33.687871] (-) TimerEvent: {}
+[33.790300] (-) TimerEvent: {}
+[33.892228] (-) TimerEvent: {}
+[33.994079] (-) TimerEvent: {}
+[34.096054] (-) TimerEvent: {}
+[34.198028] (-) TimerEvent: {}
+[34.300193] (-) TimerEvent: {}
+[34.402355] (-) TimerEvent: {}
+[34.504130] (-) TimerEvent: {}
+[34.605913] (-) TimerEvent: {}
+[34.707877] (-) TimerEvent: {}
+[34.810210] (-) TimerEvent: {}
+[34.912175] (-) TimerEvent: {}
+[35.014043] (-) TimerEvent: {}
+[35.116213] (-) TimerEvent: {}
+[35.218164] (-) TimerEvent: {}
+[35.320043] (-) TimerEvent: {}
+[35.422258] (-) TimerEvent: {}
+[35.524163] (-) TimerEvent: {}
+[35.626044] (-) TimerEvent: {}
+[35.727851] (-) TimerEvent: {}
+[35.830058] (-) TimerEvent: {}
+[35.932148] (-) TimerEvent: {}
+[36.035431] (-) TimerEvent: {}
+[36.138652] (-) TimerEvent: {}
+[36.240491] (-) TimerEvent: {}
+[36.342081] (-) TimerEvent: {}
+[36.443895] (-) TimerEvent: {}
+[36.545629] (-) TimerEvent: {}
+[36.647321] (-) TimerEvent: {}
+[36.749233] (-) TimerEvent: {}
+[36.851324] (-) TimerEvent: {}
+[36.953175] (-) TimerEvent: {}
+[37.055275] (-) TimerEvent: {}
+[37.157954] (-) TimerEvent: {}
+[37.259837] (-) TimerEvent: {}
+[37.361765] (-) TimerEvent: {}
+[37.463487] (-) TimerEvent: {}
+[37.565219] (-) TimerEvent: {}
+[37.667176] (-) TimerEvent: {}
+[37.769334] (-) TimerEvent: {}
+[37.872154] (-) TimerEvent: {}
+[37.973122] (-) TimerEvent: {}
+[38.074134] (-) TimerEvent: {}
+[38.175335] (-) TimerEvent: {}
+[38.278529] (-) TimerEvent: {}
+[38.379663] (-) TimerEvent: {}
+[38.480541] (-) TimerEvent: {}
+[38.582062] (-) TimerEvent: {}
+[38.683363] (-) TimerEvent: {}
+[38.784454] (-) TimerEvent: {}
+[38.886124] (-) TimerEvent: {}
+[38.987620] (-) TimerEvent: {}
+[39.089182] (-) TimerEvent: {}
+[39.190766] (-) TimerEvent: {}
+[39.292412] (-) TimerEvent: {}
+[39.394131] (-) TimerEvent: {}
+[39.495086] (-) TimerEvent: {}
+[39.601327] (-) TimerEvent: {}
+[39.703987] (-) TimerEvent: {}
+[39.805128] (-) TimerEvent: {}
+[39.908011] (-) TimerEvent: {}
+[40.009326] (-) TimerEvent: {}
+[40.099040] (serial) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[40.109523] (-) TimerEvent: {}
+[40.210433] (-) TimerEvent: {}
+[40.312036] (-) TimerEvent: {}
+[40.413825] (-) TimerEvent: {}
+[40.446088] (serial) StdoutLine: {'line': b'[ 71%] Built target gtest\n'}
+[40.506077] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial-test-timer\x1b[0m\n'}
+[40.508971] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial-test\x1b[0m\n'}
+[40.514049] (-) TimerEvent: {}
+[40.608184] (serial) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o\x1b[0m\n'}
+[40.609876] (serial) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o\x1b[0m\n'}
+[40.614255] (-) TimerEvent: {}
+[40.715149] (-) TimerEvent: {}
+[40.816091] (-) TimerEvent: {}
+[40.917177] (-) TimerEvent: {}
+[41.017996] (-) TimerEvent: {}
+[41.118966] (-) TimerEvent: {}
+[41.221035] (-) TimerEvent: {}
+[41.323987] (-) TimerEvent: {}
+[41.425760] (-) TimerEvent: {}
+[41.527909] (-) TimerEvent: {}
+[41.633192] (-) TimerEvent: {}
+[41.734924] (-) TimerEvent: {}
+[41.837933] (-) TimerEvent: {}
+[41.938893] (-) TimerEvent: {}
+[42.040345] (-) TimerEvent: {}
+[42.142607] (-) TimerEvent: {}
+[42.245254] (-) TimerEvent: {}
+[42.353293] (-) TimerEvent: {}
+[42.461264] (-) TimerEvent: {}
+[42.565191] (-) TimerEvent: {}
+[42.673249] (-) TimerEvent: {}
+[42.781232] (-) TimerEvent: {}
+[42.889215] (-) TimerEvent: {}
+[42.997220] (-) TimerEvent: {}
+[43.105228] (-) TimerEvent: {}
+[43.213219] (-) TimerEvent: {}
+[43.321207] (-) TimerEvent: {}
+[43.429209] (-) TimerEvent: {}
+[43.537233] (-) TimerEvent: {}
+[43.638302] (-) TimerEvent: {}
+[43.740360] (-) TimerEvent: {}
+[43.844061] (-) TimerEvent: {}
+[43.946040] (-) TimerEvent: {}
+[44.047927] (-) TimerEvent: {}
+[44.150988] (-) TimerEvent: {}
+[44.252960] (-) TimerEvent: {}
+[44.361219] (-) TimerEvent: {}
+[44.463015] (-) TimerEvent: {}
+[44.564828] (-) TimerEvent: {}
+[44.665905] (-) TimerEvent: {}
+[44.766866] (-) TimerEvent: {}
+[44.867870] (-) TimerEvent: {}
+[44.968816] (-) TimerEvent: {}
+[45.069763] (-) TimerEvent: {}
+[45.170734] (-) TimerEvent: {}
+[45.272030] (-) TimerEvent: {}
+[45.369564] (serial) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable serial-test-timer\x1b[0m\n'}
+[45.372461] (-) TimerEvent: {}
+[45.473642] (-) TimerEvent: {}
+[45.574668] (-) TimerEvent: {}
+[45.677731] (-) TimerEvent: {}
+[45.780682] (-) TimerEvent: {}
+[45.896497] (-) TimerEvent: {}
+[45.999082] (-) TimerEvent: {}
+[46.102966] (-) TimerEvent: {}
+[46.123491] (serial) StdoutLine: {'line': b'[ 92%] Built target serial-test-timer\n'}
+[46.203322] (-) TimerEvent: {}
+[46.304667] (-) TimerEvent: {}
+[46.307696] (serial) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable serial-test\x1b[0m\n'}
+[46.405088] (-) TimerEvent: {}
+[46.507106] (-) TimerEvent: {}
+[46.608082] (-) TimerEvent: {}
+[46.710480] (-) TimerEvent: {}
+[46.812448] (-) TimerEvent: {}
+[46.914497] (-) TimerEvent: {}
+[46.962127] (serial) StdoutLine: {'line': b'[100%] Built target serial-test\n'}
+[47.014752] (-) TimerEvent: {}
+[47.021588] (serial) CommandEnded: {'returncode': 0}
+[47.115261] (-) TimerEvent: {}
+[47.216871] (-) TimerEvent: {}
+[47.236205] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[47.237578] (serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sebas/mbehu_restored_ws/build/serial'], 'cwd': '/home/sebas/mbehu_restored_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sebas'), ('SSH_CLIENT', '192.168.0.26 48836 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sebas/mbehu_ws/install/diffdrive_arduino/lib:/home/sebas/mbehu_ws/install/serial/lib:/home/sebas/mbehu_ws/install/imu_driver/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sebas'), ('OLDPWD', '/home/sebas/mbehu_restored_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('UBUNTU_MENUPROXY', '1'), ('COLCON_PREFIX_PATH', '/home/sebas/mbehu_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sebas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sebas/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sebas/mbehu_restored_ws/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.26 48836 192.168.0.10 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sebas/mbehu_ws/build/ultrasonico:/home/sebas/mbehu_ws/install/ultrasonico/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050_pkg/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050:/home/sebas/mbehu_ws/install/mpu6050/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy')]), 'shell': False}
+[47.293066] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[47.294314] (serial) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/serial/lib/libserial.a\n'}
+[47.298282] (serial) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/serial/include/serial/serial.h\n'}
+[47.299420] (serial) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/serial/include/serial/v8stdint.h\n'}
+[47.301334] (serial) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/serial/share/serial/environment/library_path.sh\n'}
+[47.302749] (serial) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/serial/share/serial/environment/library_path.dsv\n'}
+[47.304696] (serial) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[47.306684] (serial) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[47.308315] (serial) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[47.309781] (serial) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[47.311267] (serial) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/serial/share/serial/environment/path.sh\n'}
+[47.312884] (serial) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/serial/share/serial/environment/path.dsv\n'}
+[47.314328] (serial) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/serial/share/serial/local_setup.bash\n'}
+[47.315703] (serial) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/serial/share/serial/local_setup.sh\n'}
+[47.317168] (serial) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/serial/share/serial/local_setup.zsh\n'}
+[47.317865] (-) TimerEvent: {}
+[47.319640] (serial) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/serial/share/serial/local_setup.dsv\n'}
+[47.320577] (serial) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/serial/share/serial/package.dsv\n'}
+[47.321750] (serial) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[47.323603] (serial) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[47.325393] (serial) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[47.326903] (serial) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[47.327971] (serial) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[47.329392] (serial) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/serial/share/serial/package.xml\n'}
+[47.337934] (serial) CommandEnded: {'returncode': 0}
+[47.418310] (-) TimerEvent: {}
+[47.520729] (-) TimerEvent: {}
+[47.623120] (-) TimerEvent: {}
+[47.723723] (serial) JobEnded: {'identifier': 'serial', 'rc': 0}
+[47.726831] (-) TimerEvent: {}
+[47.727382] (diffdrive_arduino) JobStarted: {'identifier': 'diffdrive_arduino'}
+[47.793747] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'cmake'}
+[47.794993] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '/home/sebas/mbehu_restored_ws/src/diffdrive_arduino', '-DCMAKE_INSTALL_PREFIX=/home/sebas/mbehu_restored_ws/install/diffdrive_arduino'], 'cwd': '/home/sebas/mbehu_restored_ws/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sebas'), ('SSH_CLIENT', '192.168.0.26 48836 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sebas/mbehu_restored_ws/install/serial/lib:/home/sebas/mbehu_ws/install/diffdrive_arduino/lib:/home/sebas/mbehu_ws/install/serial/lib:/home/sebas/mbehu_ws/install/imu_driver/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sebas'), ('OLDPWD', '/home/sebas/mbehu_restored_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('UBUNTU_MENUPROXY', '1'), ('COLCON_PREFIX_PATH', '/home/sebas/mbehu_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sebas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sebas/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sebas/mbehu_restored_ws/install/serial:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sebas/mbehu_restored_ws/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.26 48836 192.168.0.10 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sebas/mbehu_ws/build/ultrasonico:/home/sebas/mbehu_ws/install/ultrasonico/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050_pkg/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050:/home/sebas/mbehu_ws/install/mpu6050/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sebas/mbehu_restored_ws/install/serial:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy')]), 'shell': False}
+[47.827076] (-) TimerEvent: {}
+[47.928300] (-) TimerEvent: {}
+[48.030502] (-) TimerEvent: {}
+[48.080266] (diffdrive_arduino) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[48.130708] (-) TimerEvent: {}
+[48.231860] (-) TimerEvent: {}
+[48.332844] (-) TimerEvent: {}
+[48.367038] (diffdrive_arduino) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[48.393319] (diffdrive_arduino) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[48.433136] (-) TimerEvent: {}
+[48.534878] (-) TimerEvent: {}
+[48.636560] (-) TimerEvent: {}
+[48.738324] (-) TimerEvent: {}
+[48.777584] (diffdrive_arduino) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[48.781733] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[48.838580] (-) TimerEvent: {}
+[48.940070] (-) TimerEvent: {}
+[49.042366] (-) TimerEvent: {}
+[49.144815] (-) TimerEvent: {}
+[49.192013] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[49.244986] (-) TimerEvent: {}
+[49.247155] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[49.256049] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[49.262104] (diffdrive_arduino) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[49.345212] (-) TimerEvent: {}
+[49.446107] (-) TimerEvent: {}
+[49.547006] (-) TimerEvent: {}
+[49.648943] (-) TimerEvent: {}
+[49.660528] (diffdrive_arduino) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[49.665390] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[49.749161] (-) TimerEvent: {}
+[49.850419] (-) TimerEvent: {}
+[49.951202] (-) TimerEvent: {}
+[50.052084] (-) TimerEvent: {}
+[50.060225] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[50.106855] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[50.109135] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[50.148233] (diffdrive_arduino) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[50.152230] (-) TimerEvent: {}
+[50.253878] (-) TimerEvent: {}
+[50.355743] (-) TimerEvent: {}
+[50.389567] (diffdrive_arduino) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[50.390839] (diffdrive_arduino) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[50.455980] (-) TimerEvent: {}
+[50.557755] (-) TimerEvent: {}
+[50.659399] (-) TimerEvent: {}
+[50.761184] (-) TimerEvent: {}
+[50.862910] (-) TimerEvent: {}
+[50.964833] (-) TimerEvent: {}
+[51.066936] (-) TimerEvent: {}
+[51.170698] (-) TimerEvent: {}
+[51.272694] (-) TimerEvent: {}
+[51.375962] (-) TimerEvent: {}
+[51.476885] (-) TimerEvent: {}
+[51.577665] (-) TimerEvent: {}
+[51.678457] (-) TimerEvent: {}
+[51.779644] (-) TimerEvent: {}
+[51.882885] (-) TimerEvent: {}
+[51.984639] (-) TimerEvent: {}
+[52.052212] (ldlidar_sl_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ldlidar_sl_ros2_node\x1b[0m\n'}
+[52.084876] (-) TimerEvent: {}
+[52.094334] (diffdrive_arduino) StdoutLine: {'line': b'-- Found serial: 1.2.1 (/home/sebas/mbehu_restored_ws/install/serial/share/serial/cmake)\n'}
+[52.135399] (diffdrive_arduino) StdoutLine: {'line': b'-- Found hardware_interface: 0.11.0 (/opt/ros/foxy/share/hardware_interface/cmake)\n'}
+[52.185101] (-) TimerEvent: {}
+[52.286967] (-) TimerEvent: {}
+[52.388625] (-) TimerEvent: {}
+[52.490408] (-) TimerEvent: {}
+[52.593334] (-) TimerEvent: {}
+[52.650502] (diffdrive_arduino) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[52.693514] (-) TimerEvent: {}
+[52.775507] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[52.793779] (-) TimerEvent: {}
+[52.896446] (-) TimerEvent: {}
+[52.997661] (-) TimerEvent: {}
+[53.098485] (-) TimerEvent: {}
+[53.199656] (-) TimerEvent: {}
+[53.303075] (-) TimerEvent: {}
+[53.403977] (-) TimerEvent: {}
+[53.408410] (ldlidar_sl_ros2) StdoutLine: {'line': b'[100%] Built target ldlidar_sl_ros2_node\n'}
+[53.456301] (ldlidar_sl_ros2) CommandEnded: {'returncode': 0}
+[53.504277] (-) TimerEvent: {}
+[53.605759] (-) TimerEvent: {}
+[53.610492] (diffdrive_arduino) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[53.683386] (ldlidar_sl_ros2) JobProgress: {'identifier': 'ldlidar_sl_ros2', 'progress': 'install'}
+[53.685315] (ldlidar_sl_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sebas/mbehu_restored_ws/build/ldlidar_sl_ros2'], 'cwd': '/home/sebas/mbehu_restored_ws/build/ldlidar_sl_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sebas'), ('SSH_CLIENT', '192.168.0.26 48836 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sebas/mbehu_ws/install/diffdrive_arduino/lib:/home/sebas/mbehu_ws/install/serial/lib:/home/sebas/mbehu_ws/install/imu_driver/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sebas'), ('OLDPWD', '/home/sebas/mbehu_restored_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('UBUNTU_MENUPROXY', '1'), ('COLCON_PREFIX_PATH', '/home/sebas/mbehu_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sebas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sebas/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sebas/mbehu_restored_ws/build/ldlidar_sl_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.26 48836 192.168.0.10 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sebas/mbehu_ws/build/ultrasonico:/home/sebas/mbehu_ws/install/ultrasonico/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050_pkg/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050:/home/sebas/mbehu_ws/install/mpu6050/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy')]), 'shell': False}
+[53.706012] (-) TimerEvent: {}
+[53.735702] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[53.736714] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/lib/ldlidar_sl_ros2/ldlidar_sl_ros2_node\n'}
+[53.747335] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/lib/ldlidar_sl_ros2/ldlidar_sl_ros2_node" to ""\n'}
+[53.748321] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//launch\n'}
+[53.749231] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//launch/ld14.launch.py\n'}
+[53.750071] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//launch/viewer_ld14.launch.py\n'}
+[53.750909] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//rviz2\n'}
+[53.752414] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//rviz2/ldlidar.rviz\n'}
+[53.753667] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//scripts\n'}
+[53.754209] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//scripts/ldlidar.rules\n'}
+[53.755040] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//scripts/delete_udev_rules.sh\n'}
+[53.755780] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//scripts/create_udev_rules.sh\n'}
+[53.757501] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ament_index/resource_index/package_run_dependencies/ldlidar_sl_ros2\n'}
+[53.759456] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ament_index/resource_index/parent_prefix_path/ldlidar_sl_ros2\n'}
+[53.761308] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/environment/ament_prefix_path.sh\n'}
+[53.762683] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/environment/ament_prefix_path.dsv\n'}
+[53.763980] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/environment/path.sh\n'}
+[53.765280] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/environment/path.dsv\n'}
+[53.766647] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/local_setup.bash\n'}
+[53.767990] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/local_setup.sh\n'}
+[53.769322] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/local_setup.zsh\n'}
+[53.770831] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/local_setup.dsv\n'}
+[53.772122] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.dsv\n'}
+[53.773900] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ament_index/resource_index/packages/ldlidar_sl_ros2\n'}
+[53.775634] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/cmake/ldlidar_sl_ros2Config.cmake\n'}
+[53.776671] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/cmake/ldlidar_sl_ros2Config-version.cmake\n'}
+[53.778000] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.xml\n'}
+[53.784926] (ldlidar_sl_ros2) CommandEnded: {'returncode': 0}
+[53.811281] (-) TimerEvent: {}
+[53.913625] (-) TimerEvent: {}
+[53.975428] (diffdrive_arduino) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[54.013737] (-) TimerEvent: {}
+[54.115186] (-) TimerEvent: {}
+[54.123931] (ldlidar_sl_ros2) JobEnded: {'identifier': 'ldlidar_sl_ros2', 'rc': 0}
+[54.215381] (-) TimerEvent: {}
+[54.316006] (-) TimerEvent: {}
+[54.416848] (-) TimerEvent: {}
+[54.518026] (-) TimerEvent: {}
+[54.618773] (-) TimerEvent: {}
+[54.719614] (-) TimerEvent: {}
+[54.820354] (-) TimerEvent: {}
+[54.826697] (diffdrive_arduino) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[54.920510] (-) TimerEvent: {}
+[55.021217] (-) TimerEvent: {}
+[55.121962] (-) TimerEvent: {}
+[55.222858] (-) TimerEvent: {}
+[55.323564] (-) TimerEvent: {}
+[55.424265] (-) TimerEvent: {}
+[55.525250] (-) TimerEvent: {}
+[55.625957] (-) TimerEvent: {}
+[55.726689] (-) TimerEvent: {}
+[55.827757] (-) TimerEvent: {}
+[55.928987] (-) TimerEvent: {}
+[56.029747] (-) TimerEvent: {}
+[56.130440] (-) TimerEvent: {}
+[56.231126] (-) TimerEvent: {}
+[56.333263] (-) TimerEvent: {}
+[56.434062] (-) TimerEvent: {}
+[56.534795] (-) TimerEvent: {}
+[56.635520] (-) TimerEvent: {}
+[56.736235] (-) TimerEvent: {}
+[56.836913] (-) TimerEvent: {}
+[56.937665] (-) TimerEvent: {}
+[57.038398] (-) TimerEvent: {}
+[57.139079] (-) TimerEvent: {}
+[57.239742] (-) TimerEvent: {}
+[57.340583] (-) TimerEvent: {}
+[57.441325] (-) TimerEvent: {}
+[57.542243] (-) TimerEvent: {}
+[57.543962] (diffdrive_arduino) StdoutLine: {'line': b'-- Found controller_manager: 0.11.0 (/opt/ros/foxy/share/controller_manager/cmake)\n'}
+[57.642447] (-) TimerEvent: {}
+[57.743602] (-) TimerEvent: {}
+[57.844862] (-) TimerEvent: {}
+[57.945560] (-) TimerEvent: {}
+[58.046228] (-) TimerEvent: {}
+[58.075604] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[58.083517] (diffdrive_arduino) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[58.087498] (diffdrive_arduino) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[58.146445] (-) TimerEvent: {}
+[58.247312] (-) TimerEvent: {}
+[58.348117] (-) TimerEvent: {}
+[58.449062] (-) TimerEvent: {}
+[58.457915] (diffdrive_arduino) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[58.459226] (diffdrive_arduino) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[58.549189] (-) TimerEvent: {}
+[58.650009] (-) TimerEvent: {}
+[58.750750] (-) TimerEvent: {}
+[58.821889] (diffdrive_arduino) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[58.822778] (diffdrive_arduino) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[58.850906] (-) TimerEvent: {}
+[58.951976] (-) TimerEvent: {}
+[59.053438] (-) TimerEvent: {}
+[59.154753] (-) TimerEvent: {}
+[59.156858] (diffdrive_arduino) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[59.157648] (diffdrive_arduino) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[59.254949] (-) TimerEvent: {}
+[59.355776] (-) TimerEvent: {}
+[59.456979] (-) TimerEvent: {}
+[59.513820] (diffdrive_arduino) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[59.518081] (diffdrive_arduino) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[59.557143] (-) TimerEvent: {}
+[59.657844] (-) TimerEvent: {}
+[59.758538] (-) TimerEvent: {}
+[59.859264] (-) TimerEvent: {}
+[59.959991] (-) TimerEvent: {}
+[60.060818] (-) TimerEvent: {}
+[60.161593] (-) TimerEvent: {}
+[60.262268] (-) TimerEvent: {}
+[60.362955] (-) TimerEvent: {}
+[60.463691] (-) TimerEvent: {}
+[60.564492] (-) TimerEvent: {}
+[60.665467] (-) TimerEvent: {}
+[60.766421] (-) TimerEvent: {}
+[60.867129] (-) TimerEvent: {}
+[60.967835] (-) TimerEvent: {}
+[61.068581] (-) TimerEvent: {}
+[61.169373] (-) TimerEvent: {}
+[61.270102] (-) TimerEvent: {}
+[61.370821] (-) TimerEvent: {}
+[61.471632] (-) TimerEvent: {}
+[61.572512] (-) TimerEvent: {}
+[61.673279] (-) TimerEvent: {}
+[61.773989] (-) TimerEvent: {}
+[61.874716] (-) TimerEvent: {}
+[61.975496] (-) TimerEvent: {}
+[62.076589] (-) TimerEvent: {}
+[62.178074] (-) TimerEvent: {}
+[62.278875] (-) TimerEvent: {}
+[62.380029] (-) TimerEvent: {}
+[62.480759] (-) TimerEvent: {}
+[62.548672] (diffdrive_arduino) StdoutLine: {'line': b'-- Configuring done\n'}
+[62.580938] (-) TimerEvent: {}
+[62.681704] (-) TimerEvent: {}
+[62.782445] (-) TimerEvent: {}
+[62.879732] (diffdrive_arduino) StdoutLine: {'line': b'-- Generating done\n'}
+[62.882607] (-) TimerEvent: {}
+[62.888734] (diffdrive_arduino) StdoutLine: {'line': b'-- Build files have been written to: /home/sebas/mbehu_restored_ws/build/diffdrive_arduino\n'}
+[62.932753] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[62.935252] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'build'}
+[62.936688] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sebas/mbehu_restored_ws/build/diffdrive_arduino', '--', '-j4', '-l4'], 'cwd': '/home/sebas/mbehu_restored_ws/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sebas'), ('SSH_CLIENT', '192.168.0.26 48836 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sebas/mbehu_restored_ws/install/serial/lib:/home/sebas/mbehu_ws/install/diffdrive_arduino/lib:/home/sebas/mbehu_ws/install/serial/lib:/home/sebas/mbehu_ws/install/imu_driver/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sebas'), ('OLDPWD', '/home/sebas/mbehu_restored_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('UBUNTU_MENUPROXY', '1'), ('COLCON_PREFIX_PATH', '/home/sebas/mbehu_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sebas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sebas/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sebas/mbehu_restored_ws/install/serial:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sebas/mbehu_restored_ws/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.26 48836 192.168.0.10 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sebas/mbehu_ws/build/ultrasonico:/home/sebas/mbehu_ws/install/ultrasonico/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050_pkg/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050:/home/sebas/mbehu_ws/install/mpu6050/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sebas/mbehu_restored_ws/install/serial:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy')]), 'shell': False}
+[62.982864] (-) TimerEvent: {}
+[63.083787] (-) TimerEvent: {}
+[63.163699] (diffdrive_arduino) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target fake_robot\x1b[0m\n'}
+[63.165899] (diffdrive_arduino) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target diffdrive_arduino\x1b[0m\n'}
+[63.183947] (-) TimerEvent: {}
+[63.285366] (-) TimerEvent: {}
+[63.386802] (-) TimerEvent: {}
+[63.403614] (diffdrive_arduino) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/fake_robot.dir/src/wheel.cpp.o\x1b[0m\n'}
+[63.407915] (diffdrive_arduino) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o\x1b[0m\n'}
+[63.439514] (diffdrive_arduino) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/wheel.cpp.o\x1b[0m\n'}
+[63.452562] (diffdrive_arduino) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o\x1b[0m\n'}
+[63.487046] (-) TimerEvent: {}
+[63.588938] (-) TimerEvent: {}
+[63.690637] (-) TimerEvent: {}
+[63.792563] (-) TimerEvent: {}
+[63.895925] (-) TimerEvent: {}
+[64.005384] (-) TimerEvent: {}
+[64.113359] (-) TimerEvent: {}
+[64.216356] (-) TimerEvent: {}
+[64.321355] (-) TimerEvent: {}
+[64.431218] (-) TimerEvent: {}
+[64.535114] (-) TimerEvent: {}
+[64.637744] (-) TimerEvent: {}
+[64.740410] (-) TimerEvent: {}
+[64.843275] (-) TimerEvent: {}
+[64.946484] (-) TimerEvent: {}
+[65.049349] (-) TimerEvent: {}
+[65.158367] (-) TimerEvent: {}
+[65.261250] (-) TimerEvent: {}
+[65.364059] (-) TimerEvent: {}
+[65.467088] (-) TimerEvent: {}
+[65.570116] (-) TimerEvent: {}
+[65.673309] (-) TimerEvent: {}
+[65.776087] (-) TimerEvent: {}
+[65.879077] (-) TimerEvent: {}
+[65.981798] (-) TimerEvent: {}
+[65.985203] (diffdrive_arduino) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/arduino_comms.cpp.o\x1b[0m\n'}
+[66.082095] (-) TimerEvent: {}
+[66.183621] (-) TimerEvent: {}
+[66.286605] (-) TimerEvent: {}
+[66.389351] (-) TimerEvent: {}
+[66.492189] (-) TimerEvent: {}
+[66.594340] (-) TimerEvent: {}
+[66.696111] (-) TimerEvent: {}
+[66.797654] (-) TimerEvent: {}
+[66.899243] (-) TimerEvent: {}
+[67.000804] (-) TimerEvent: {}
+[67.102533] (-) TimerEvent: {}
+[67.203568] (-) TimerEvent: {}
+[67.305723] (-) TimerEvent: {}
+[67.407532] (-) TimerEvent: {}
+[67.508517] (-) TimerEvent: {}
+[67.609726] (-) TimerEvent: {}
+[67.710718] (-) TimerEvent: {}
+[67.811781] (-) TimerEvent: {}
+[67.913068] (-) TimerEvent: {}
+[68.021268] (-) TimerEvent: {}
+[68.129217] (-) TimerEvent: {}
+[68.237220] (-) TimerEvent: {}
+[68.338393] (-) TimerEvent: {}
+[68.439544] (-) TimerEvent: {}
+[68.541369] (-) TimerEvent: {}
+[68.642911] (-) TimerEvent: {}
+[68.744017] (-) TimerEvent: {}
+[68.844936] (-) TimerEvent: {}
+[68.945921] (-) TimerEvent: {}
+[69.046969] (-) TimerEvent: {}
+[69.148194] (-) TimerEvent: {}
+[69.249590] (-) TimerEvent: {}
+[69.350573] (-) TimerEvent: {}
+[69.451765] (-) TimerEvent: {}
+[69.552653] (-) TimerEvent: {}
+[69.653672] (-) TimerEvent: {}
+[69.754583] (-) TimerEvent: {}
+[69.857245] (-) TimerEvent: {}
+[69.965207] (-) TimerEvent: {}
+[70.073206] (-) TimerEvent: {}
+[70.181233] (-) TimerEvent: {}
+[70.289207] (-) TimerEvent: {}
+[70.397188] (-) TimerEvent: {}
+[70.505196] (-) TimerEvent: {}
+[70.613191] (-) TimerEvent: {}
+[70.721198] (-) TimerEvent: {}
+[70.829215] (-) TimerEvent: {}
+[70.937217] (-) TimerEvent: {}
+[71.045242] (-) TimerEvent: {}
+[71.146237] (-) TimerEvent: {}
+[71.247199] (-) TimerEvent: {}
+[71.352616] (-) TimerEvent: {}
+[71.454458] (-) TimerEvent: {}
+[71.555477] (-) TimerEvent: {}
+[71.656397] (-) TimerEvent: {}
+[71.757298] (-) TimerEvent: {}
+[71.858154] (-) TimerEvent: {}
+[71.959113] (-) TimerEvent: {}
+[72.061090] (-) TimerEvent: {}
+[72.162166] (-) TimerEvent: {}
+[72.272666] (-) TimerEvent: {}
+[72.374473] (-) TimerEvent: {}
+[72.476211] (-) TimerEvent: {}
+[72.578070] (-) TimerEvent: {}
+[72.679912] (-) TimerEvent: {}
+[72.781855] (-) TimerEvent: {}
+[72.883623] (-) TimerEvent: {}
+[72.985554] (-) TimerEvent: {}
+[73.087829] (-) TimerEvent: {}
+[73.190791] (-) TimerEvent: {}
+[73.292695] (-) TimerEvent: {}
+[73.393693] (-) TimerEvent: {}
+[73.494746] (-) TimerEvent: {}
+[73.595646] (-) TimerEvent: {}
+[73.696546] (-) TimerEvent: {}
+[73.805200] (-) TimerEvent: {}
+[73.913212] (-) TimerEvent: {}
+[74.017282] (-) TimerEvent: {}
+[74.119095] (-) TimerEvent: {}
+[74.220825] (-) TimerEvent: {}
+[74.322663] (-) TimerEvent: {}
+[74.424547] (-) TimerEvent: {}
+[74.526329] (-) TimerEvent: {}
+[74.628067] (-) TimerEvent: {}
+[74.729856] (-) TimerEvent: {}
+[74.830829] (-) TimerEvent: {}
+[74.932158] (-) TimerEvent: {}
+[75.033499] (-) TimerEvent: {}
+[75.134422] (-) TimerEvent: {}
+[75.236204] (-) TimerEvent: {}
+[75.341249] (-) TimerEvent: {}
+[75.445482] (-) TimerEvent: {}
+[75.546386] (-) TimerEvent: {}
+[75.647290] (-) TimerEvent: {}
+[75.748225] (-) TimerEvent: {}
+[75.849203] (-) TimerEvent: {}
+[75.953231] (-) TimerEvent: {}
+[76.057191] (-) TimerEvent: {}
+[76.161227] (-) TimerEvent: {}
+[76.265207] (-) TimerEvent: {}
+[76.369214] (-) TimerEvent: {}
+[76.473236] (-) TimerEvent: {}
+[76.589260] (-) TimerEvent: {}
+[76.692224] (-) TimerEvent: {}
+[76.794314] (-) TimerEvent: {}
+[76.896451] (-) TimerEvent: {}
+[76.998293] (-) TimerEvent: {}
+[77.099956] (-) TimerEvent: {}
+[77.201229] (-) TimerEvent: {}
+[77.305463] (-) TimerEvent: {}
+[77.406422] (-) TimerEvent: {}
+[77.508294] (-) TimerEvent: {}
+[77.609448] (-) TimerEvent: {}
+[77.710563] (-) TimerEvent: {}
+[77.811521] (-) TimerEvent: {}
+[77.912531] (-) TimerEvent: {}
+[78.013523] (-) TimerEvent: {}
+[78.115444] (-) TimerEvent: {}
+[78.219251] (-) TimerEvent: {}
+[78.320863] (-) TimerEvent: {}
+[78.422695] (-) TimerEvent: {}
+[78.523658] (-) TimerEvent: {}
+[78.625582] (-) TimerEvent: {}
+[78.727750] (-) TimerEvent: {}
+[78.828964] (-) TimerEvent: {}
+[78.931599] (-) TimerEvent: {}
+[79.032641] (-) TimerEvent: {}
+[79.133596] (-) TimerEvent: {}
+[79.234500] (-) TimerEvent: {}
+[79.335481] (-) TimerEvent: {}
+[79.436472] (-) TimerEvent: {}
+[79.537479] (-) TimerEvent: {}
+[79.638428] (-) TimerEvent: {}
+[79.684538] (diffdrive_arduino) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX shared library libfake_robot.so\x1b[0m\n'}
+[79.738583] (-) TimerEvent: {}
+[79.839353] (-) TimerEvent: {}
+[79.940079] (-) TimerEvent: {}
+[79.955006] (diffdrive_arduino) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libdiffdrive_arduino.so\x1b[0m\n'}
+[80.040269] (-) TimerEvent: {}
+[80.141650] (-) TimerEvent: {}
+[80.244630] (-) TimerEvent: {}
+[80.347239] (-) TimerEvent: {}
+[80.449586] (-) TimerEvent: {}
+[80.552233] (-) TimerEvent: {}
+[80.655389] (-) TimerEvent: {}
+[80.758476] (-) TimerEvent: {}
+[80.861987] (-) TimerEvent: {}
+[80.964368] (-) TimerEvent: {}
+[81.066849] (-) TimerEvent: {}
+[81.169182] (-) TimerEvent: {}
+[81.272084] (-) TimerEvent: {}
+[81.335449] (diffdrive_arduino) StdoutLine: {'line': b'[100%] Built target fake_robot\n'}
+[81.372246] (-) TimerEvent: {}
+[81.456612] (diffdrive_arduino) StdoutLine: {'line': b'[100%] Built target diffdrive_arduino\n'}
+[81.472637] (-) TimerEvent: {}
+[81.506635] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[81.572871] (-) TimerEvent: {}
+[81.674726] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'install'}
+[81.674966] (-) TimerEvent: {}
+[81.676551] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sebas/mbehu_restored_ws/build/diffdrive_arduino'], 'cwd': '/home/sebas/mbehu_restored_ws/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sebas'), ('SSH_CLIENT', '192.168.0.26 48836 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sebas/mbehu_restored_ws/install/serial/lib:/home/sebas/mbehu_ws/install/diffdrive_arduino/lib:/home/sebas/mbehu_ws/install/serial/lib:/home/sebas/mbehu_ws/install/imu_driver/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sebas'), ('OLDPWD', '/home/sebas/mbehu_restored_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('UBUNTU_MENUPROXY', '1'), ('COLCON_PREFIX_PATH', '/home/sebas/mbehu_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sebas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sebas/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sebas/mbehu_restored_ws/install/serial:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sebas/mbehu_restored_ws/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.26 48836 192.168.0.10 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sebas/mbehu_ws/build/ultrasonico:/home/sebas/mbehu_ws/install/ultrasonico/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050_pkg/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050:/home/sebas/mbehu_ws/install/mpu6050/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sebas/mbehu_restored_ws/install/serial:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy')]), 'shell': False}
+[81.726394] (diffdrive_arduino) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[81.727149] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/robot_hardware.xml\n'}
+[81.728304] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot_hardware.xml\n'}
+[81.729759] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so\n'}
+[81.736377] (diffdrive_arduino) StdoutLine: {'line': b'-- Set runtime path of "/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so" to ""\n'}
+[81.736984] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/lib/libfake_robot.so\n'}
+[81.742660] (diffdrive_arduino) StdoutLine: {'line': b'-- Set runtime path of "/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/lib/libfake_robot.so" to ""\n'}
+[81.743323] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/controllers\n'}
+[81.743803] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/controllers/robot_controller_example.yaml\n'}
+[81.744473] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino\n'}
+[81.744973] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/test_robot.launch.py\n'}
+[81.745748] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot.launch.py\n'}
+[81.747168] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh\n'}
+[81.748328] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv\n'}
+[81.749995] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino\n'}
+[81.751582] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino\n'}
+[81.752851] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh\n'}
+[81.754117] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv\n'}
+[81.755345] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh\n'}
+[81.756497] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv\n'}
+[81.757658] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash\n'}
+[81.758773] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh\n'}
+[81.759867] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh\n'}
+[81.760959] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv\n'}
+[81.762134] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv\n'}
+[81.763537] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino\n'}
+[81.765252] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino\n'}
+[81.766765] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[81.768063] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[81.769406] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake\n'}
+[81.770365] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake\n'}
+[81.771540] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.xml\n'}
+[81.775173] (-) TimerEvent: {}
+[81.777948] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[81.875463] (-) TimerEvent: {}
+[81.976392] (-) TimerEvent: {}
+[82.077145] (-) TimerEvent: {}
+[82.083976] (diffdrive_arduino) JobEnded: {'identifier': 'diffdrive_arduino', 'rc': 0}
+[82.088360] (-) EventReactorShutdown: {}

@@ -1,0 +1,1 @@
+/home/sebas/mbehu_restored_ws/src/ldlidar_sl_ros2/scripts/delete_udev_rules.sh

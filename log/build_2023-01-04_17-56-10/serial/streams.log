@@ -1,0 +1,85 @@
+[0.189s] Invoking command in '/home/sebas/mbehu_restored_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake /home/sebas/mbehu_restored_ws/src/serial -DCMAKE_INSTALL_PREFIX=/home/sebas/mbehu_restored_ws/install/serial
+[1.421s] -- The C compiler identification is GNU 9.4.0
+[2.466s] -- The CXX compiler identification is GNU 9.4.0
+[2.650s] -- Check for working C compiler: /usr/bin/cc
+[3.559s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.569s] -- Detecting C compiler ABI info
+[4.452s] -- Detecting C compiler ABI info - done
+[4.578s] -- Detecting C compile features
+[4.583s] -- Detecting C compile features - done
+[4.613s] -- Check for working CXX compiler: /usr/bin/c++
+[5.485s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.491s] -- Detecting CXX compiler ABI info
+[6.053s] -- Detecting CXX compiler ABI info - done
+[6.114s] -- Detecting CXX compile features
+[6.115s] -- Detecting CXX compile features - done
+[6.159s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[6.428s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[6.430s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[9.849s] -- Found ament_cmake_gtest: 0.9.11 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[10.071s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+[10.157s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[10.171s] -- Looking for pthread.h
+[10.617s] -- Looking for pthread.h - found
+[10.620s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.038s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[11.040s] -- Check if compiler accepts -pthread
+[11.444s] -- Check if compiler accepts -pthread - yes
+[11.459s] -- Found Threads: TRUE  
+[11.868s] -- Configuring done
+[11.930s] -- Generating done
+[11.938s] -- Build files have been written to: /home/sebas/mbehu_restored_ws/build/serial
+[11.956s] Invoked command in '/home/sebas/mbehu_restored_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake /home/sebas/mbehu_restored_ws/src/serial -DCMAKE_INSTALL_PREFIX=/home/sebas/mbehu_restored_ws/install/serial
+[11.966s] Invoking command in '/home/sebas/mbehu_restored_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --build /home/sebas/mbehu_restored_ws/build/serial -- -j4 -l4
+[12.179s] [35m[1mScanning dependencies of target gtest[0m
+[12.215s] [35m[1mScanning dependencies of target serial[0m
+[12.233s] [35m[1mScanning dependencies of target gtest_main[0m
+[12.367s] [  7%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[12.458s] [ 14%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[12.536s] [ 21%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[12.546s] [ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[18.801s] [ 35%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[20.467s] [ 42%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[20.813s] [ 42%] Built target gtest_main
+[21.950s] [ 50%] [32m[1mLinking CXX static library libserial.a[0m
+[22.172s] [ 50%] Built target serial
+[22.243s] [35m[1mScanning dependencies of target serial_example[0m
+[22.310s] [ 57%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
+[24.416s] [ 64%] [32m[1mLinking CXX executable serial_example[0m
+[25.134s] [ 64%] Built target serial_example
+[40.095s] [ 71%] [32m[1mLinking CXX static library libgtest.a[0m
+[40.442s] [ 71%] Built target gtest
+[40.502s] [35m[1mScanning dependencies of target serial-test-timer[0m
+[40.505s] [35m[1mScanning dependencies of target serial-test[0m
+[40.604s] [ 78%] [32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o[0m
+[40.606s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o[0m
+[45.366s] [ 92%] [32m[1mLinking CXX executable serial-test-timer[0m
+[46.119s] [ 92%] Built target serial-test-timer
+[46.303s] [100%] [32m[1mLinking CXX executable serial-test[0m
+[46.958s] [100%] Built target serial-test
+[47.018s] Invoked command in '/home/sebas/mbehu_restored_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --build /home/sebas/mbehu_restored_ws/build/serial -- -j4 -l4
+[47.241s] Invoking command in '/home/sebas/mbehu_restored_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --install /home/sebas/mbehu_restored_ws/build/serial
+[47.289s] -- Install configuration: ""
+[47.290s] -- Installing: /home/sebas/mbehu_restored_ws/install/serial/lib/libserial.a
+[47.294s] -- Installing: /home/sebas/mbehu_restored_ws/install/serial/include/serial/serial.h
+[47.295s] -- Installing: /home/sebas/mbehu_restored_ws/install/serial/include/serial/v8stdint.h
+[47.297s] -- Installing: /home/sebas/mbehu_restored_ws/install/serial/share/serial/environment/library_path.sh
+[47.298s] -- Installing: /home/sebas/mbehu_restored_ws/install/serial/share/serial/environment/library_path.dsv
+[47.301s] -- Installing: /home/sebas/mbehu_restored_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[47.302s] -- Installing: /home/sebas/mbehu_restored_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[47.304s] -- Installing: /home/sebas/mbehu_restored_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[47.306s] -- Installing: /home/sebas/mbehu_restored_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[47.307s] -- Installing: /home/sebas/mbehu_restored_ws/install/serial/share/serial/environment/path.sh
+[47.309s] -- Installing: /home/sebas/mbehu_restored_ws/install/serial/share/serial/environment/path.dsv
+[47.310s] -- Installing: /home/sebas/mbehu_restored_ws/install/serial/share/serial/local_setup.bash
+[47.311s] -- Installing: /home/sebas/mbehu_restored_ws/install/serial/share/serial/local_setup.sh
+[47.313s] -- Installing: /home/sebas/mbehu_restored_ws/install/serial/share/serial/local_setup.zsh
+[47.316s] -- Installing: /home/sebas/mbehu_restored_ws/install/serial/share/serial/local_setup.dsv
+[47.316s] -- Installing: /home/sebas/mbehu_restored_ws/install/serial/share/serial/package.dsv
+[47.317s] -- Installing: /home/sebas/mbehu_restored_ws/install/serial/share/ament_index/resource_index/packages/serial
+[47.319s] -- Installing: /home/sebas/mbehu_restored_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[47.321s] -- Installing: /home/sebas/mbehu_restored_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[47.323s] -- Installing: /home/sebas/mbehu_restored_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[47.324s] -- Installing: /home/sebas/mbehu_restored_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[47.325s] -- Installing: /home/sebas/mbehu_restored_ws/install/serial/share/serial/package.xml
+[47.339s] Invoked command in '/home/sebas/mbehu_restored_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --install /home/sebas/mbehu_restored_ws/build/serial

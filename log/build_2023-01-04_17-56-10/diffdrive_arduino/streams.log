@@ -1,0 +1,88 @@
+[0.078s] Invoking command in '/home/sebas/mbehu_restored_ws/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/sebas/mbehu_restored_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sebas/mbehu_restored_ws/install/serial:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy LD_LIBRARY_PATH=/home/sebas/mbehu_restored_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/sebas/mbehu_restored_ws/src/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/sebas/mbehu_restored_ws/install/diffdrive_arduino
+[0.353s] -- The C compiler identification is GNU 9.4.0
+[0.640s] -- The CXX compiler identification is GNU 9.4.0
+[0.666s] -- Check for working C compiler: /usr/bin/cc
+[1.051s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.055s] -- Detecting C compiler ABI info
+[1.466s] -- Detecting C compiler ABI info - done
+[1.528s] -- Detecting C compile features
+[1.529s] -- Detecting C compile features - done
+[1.535s] -- Check for working CXX compiler: /usr/bin/c++
+[1.934s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.938s] -- Detecting CXX compiler ABI info
+[2.333s] -- Detecting CXX compiler ABI info - done
+[2.380s] -- Detecting CXX compile features
+[2.382s] -- Detecting CXX compile features - done
+[2.421s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.663s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.664s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.367s] -- Found serial: 1.2.1 (/home/sebas/mbehu_restored_ws/install/serial/share/serial/cmake)
+[4.408s] -- Found hardware_interface: 0.11.0 (/opt/ros/foxy/share/hardware_interface/cmake)
+[4.924s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.050s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.884s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[6.249s] -- Found FastRTPS: /opt/ros/foxy/include  
+[7.100s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.817s] -- Found controller_manager: 0.11.0 (/opt/ros/foxy/share/controller_manager/cmake)
+[10.349s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[10.356s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.360s] -- Looking for pthread.h
+[10.731s] -- Looking for pthread.h - found
+[10.732s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.095s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[11.096s] -- Looking for pthread_create in pthreads
+[11.430s] -- Looking for pthread_create in pthreads - not found
+[11.431s] -- Looking for pthread_create in pthread
+[11.787s] -- Looking for pthread_create in pthread - found
+[11.791s] -- Found Threads: TRUE  
+[14.822s] -- Configuring done
+[15.153s] -- Generating done
+[15.162s] -- Build files have been written to: /home/sebas/mbehu_restored_ws/build/diffdrive_arduino
+[15.206s] Invoked command in '/home/sebas/mbehu_restored_ws/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/sebas/mbehu_restored_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sebas/mbehu_restored_ws/install/serial:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy LD_LIBRARY_PATH=/home/sebas/mbehu_restored_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/sebas/mbehu_restored_ws/src/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/sebas/mbehu_restored_ws/install/diffdrive_arduino
+[15.216s] Invoking command in '/home/sebas/mbehu_restored_ws/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/sebas/mbehu_restored_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sebas/mbehu_restored_ws/install/serial:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy LD_LIBRARY_PATH=/home/sebas/mbehu_restored_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/sebas/mbehu_restored_ws/build/diffdrive_arduino -- -j4 -l4
+[15.437s] [35m[1mScanning dependencies of target fake_robot[0m
+[15.439s] [35m[1mScanning dependencies of target diffdrive_arduino[0m
+[15.677s] [ 14%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/wheel.cpp.o[0m
+[15.681s] [ 28%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o[0m
+[15.713s] [ 42%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/wheel.cpp.o[0m
+[15.726s] [ 57%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o[0m
+[18.259s] [ 71%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/arduino_comms.cpp.o[0m
+[31.958s] [ 85%] [32m[1mLinking CXX shared library libfake_robot.so[0m
+[32.228s] [100%] [32m[1mLinking CXX shared library libdiffdrive_arduino.so[0m
+[33.609s] [100%] Built target fake_robot
+[33.730s] [100%] Built target diffdrive_arduino
+[33.780s] Invoked command in '/home/sebas/mbehu_restored_ws/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/sebas/mbehu_restored_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sebas/mbehu_restored_ws/install/serial:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy LD_LIBRARY_PATH=/home/sebas/mbehu_restored_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/sebas/mbehu_restored_ws/build/diffdrive_arduino -- -j4 -l4
+[33.957s] Invoking command in '/home/sebas/mbehu_restored_ws/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/sebas/mbehu_restored_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sebas/mbehu_restored_ws/install/serial:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy LD_LIBRARY_PATH=/home/sebas/mbehu_restored_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/sebas/mbehu_restored_ws/build/diffdrive_arduino
+[33.999s] -- Install configuration: ""
+[34.000s] -- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/robot_hardware.xml
+[34.001s] -- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot_hardware.xml
+[34.003s] -- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so
+[34.009s] -- Set runtime path of "/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so" to ""
+[34.010s] -- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/lib/libfake_robot.so
+[34.016s] -- Set runtime path of "/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/lib/libfake_robot.so" to ""
+[34.016s] -- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/controllers
+[34.017s] -- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/controllers/robot_controller_example.yaml
+[34.017s] -- Up-to-date: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino
+[34.018s] -- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/test_robot.launch.py
+[34.019s] -- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot.launch.py
+[34.020s] -- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh
+[34.021s] -- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv
+[34.023s] -- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino
+[34.024s] -- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino
+[34.026s] -- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh
+[34.027s] -- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv
+[34.028s] -- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh
+[34.029s] -- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv
+[34.030s] -- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash
+[34.032s] -- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh
+[34.033s] -- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh
+[34.034s] -- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv
+[34.035s] -- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv
+[34.036s] -- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino
+[34.038s] -- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino
+[34.040s] -- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_libraries-extras.cmake
+[34.041s] -- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+[34.042s] -- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake
+[34.043s] -- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake
+[34.044s] -- Installing: /home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.xml
+[34.061s] Invoked command in '/home/sebas/mbehu_restored_ws/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/sebas/mbehu_restored_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sebas/mbehu_restored_ws/install/serial:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy LD_LIBRARY_PATH=/home/sebas/mbehu_restored_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/sebas/mbehu_restored_ws/build/diffdrive_arduino
