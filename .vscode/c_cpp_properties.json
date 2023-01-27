@@ -1,0 +1,31 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/include/**",
+        "/home/sebas/mbehu_restored_ws/install/serial/include/**",
+        "/home/sebas/mbehu_restored_ws/install/multirobot_map_merge/include/**",
+        "/home/sebas/mbehu_restored_ws/install/explore_lite/include/**",
+        "/home/sebas/mbehu_ws/install/serial/include/**",
+        "/home/sebas/mbehu_ws/install/imu_driver/include/**",
+        "/opt/ros/foxy/include/**",
+        "/home/sebas/mbehu_restored_ws/src/diffdrive_arduino/include/**",
+        "/home/sebas/mbehu_restored_ws/src/ldlidar_sl_ros2/include/**",
+        "/home/sebas/mbehu_restored_ws/src/m-explore-ros2/explore/include/**",
+        "/home/sebas/mbehu_restored_ws/src/m-explore-ros2/map_merge/include/**",
+        "/home/sebas/mbehu_restored_ws/src/serial/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-arm64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

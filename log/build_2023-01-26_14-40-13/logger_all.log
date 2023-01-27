@@ -1,0 +1,629 @@
+[0.763s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.763s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff89d33d00>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff89d33d00>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff89d3b2b0>)
+[0.925s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.927s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sebas/mbehu_restored_ws'
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ignore', 'ignore_ament_install']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore_ament_install'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_pkg']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_pkg'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_meta']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_meta'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ros']
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ros'
+[1.008s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diffdrive_arduino' with type 'ros.ament_cmake' and name 'diffdrive_arduino'
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extension 'ignore'
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extension 'ignore_ament_install'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extensions ['colcon_pkg']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extension 'colcon_pkg'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extensions ['colcon_meta']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extension 'colcon_meta'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extensions ['ros']
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extension 'ros'
+[1.014s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ldlidar_sl_ros2' with type 'ros.ament_cmake' and name 'ldlidar_sl_ros2'
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'ignore'
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'ignore_ament_install'
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['colcon_pkg']
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'colcon_pkg'
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['colcon_meta']
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'colcon_meta'
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['ros']
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'ros'
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['cmake', 'python']
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'cmake'
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'python'
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['python_setup_py']
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'python_setup_py'
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extensions ['ignore', 'ignore_ament_install']
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'ignore'
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'ignore_ament_install'
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extensions ['colcon_pkg']
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'colcon_pkg'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extensions ['colcon_meta']
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'colcon_meta'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extensions ['ros']
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'ros'
+[1.027s] DEBUG:colcon.colcon_core.package_identification:Package 'src/m-explore-ros2/explore' with type 'ros.ament_cmake' and name 'explore_lite'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extensions ['ignore', 'ignore_ament_install']
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extension 'ignore'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extension 'ignore_ament_install'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extensions ['colcon_pkg']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extension 'colcon_pkg'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extensions ['colcon_meta']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extension 'colcon_meta'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extensions ['ros']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extension 'ros'
+[1.034s] DEBUG:colcon.colcon_core.package_identification:Package 'src/m-explore-ros2/map_merge' with type 'ros.ament_cmake' and name 'multirobot_map_merge'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/mbehu_bot) by extensions ['ignore', 'ignore_ament_install']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/mbehu_bot) by extension 'ignore'
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/mbehu_bot) by extension 'ignore_ament_install'
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/mbehu_bot) by extensions ['colcon_pkg']
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/mbehu_bot) by extension 'colcon_pkg'
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/mbehu_bot) by extensions ['colcon_meta']
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/mbehu_bot) by extension 'colcon_meta'
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/mbehu_bot) by extensions ['ros']
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/mbehu_bot) by extension 'ros'
+[1.039s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mbehu_bot' with type 'ros.ament_cmake' and name 'mbehu_bot'
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ignore', 'ignore_ament_install']
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore_ament_install'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_pkg']
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_pkg'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_meta']
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_meta'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ros']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ros'
+[1.045s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial' with type 'ros.ament_cmake' and name 'serial'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ignore'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ignore_ament_install'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['colcon_pkg']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'colcon_pkg'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['colcon_meta']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'colcon_meta'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['ros']
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ros'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['cmake', 'python']
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'cmake'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'python'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['python_setup_py']
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'python_setup_py'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ignore'
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ignore_ament_install'
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['colcon_pkg']
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'colcon_pkg'
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['colcon_meta']
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'colcon_meta'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['ros']
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ros'
+[1.055s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_motor_demo/serial_motor_demo' with type 'ros.ament_python' and name 'serial_motor_demo'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore_ament_install'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_pkg']
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_pkg'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_meta']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_meta'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['ros']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ros'
+[1.061s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_motor_demo/serial_motor_demo_msgs' with type 'ros.ament_cmake' and name 'serial_motor_demo_msgs'
+[1.061s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.061s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.061s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.061s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.062s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.189s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/sebas/mbehu_restored_ws/install
+[1.196s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/sebas/mbehu_ws/install
+[1.212s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 340 installed packages in /opt/ros/foxy
+[1.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.727s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_args' from command line to 'None'
+[1.727s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_target' from command line to 'None'
+[1.728s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.728s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_clean_cache' from command line to 'False'
+[1.728s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_clean_first' from command line to 'False'
+[1.728s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_force_configure' from command line to 'False'
+[1.728s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'ament_cmake_args' from command line to 'None'
+[1.728s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'catkin_cmake_args' from command line to 'None'
+[1.728s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.728s] DEBUG:colcon.colcon_core.verb:Building package 'explore_lite' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sebas/mbehu_restored_ws/build/explore_lite', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sebas/mbehu_restored_ws/install/explore_lite', 'merge_install': False, 'path': '/home/sebas/mbehu_restored_ws/src/m-explore-ros2/explore', 'symlink_install': False, 'test_result_base': None}
+[1.733s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'cmake_args' from command line to 'None'
+[1.734s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'cmake_target' from command line to 'None'
+[1.734s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.734s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.734s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[1.734s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[1.734s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[1.734s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.734s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.734s] DEBUG:colcon.colcon_core.verb:Building package 'ldlidar_sl_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sebas/mbehu_restored_ws/build/ldlidar_sl_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2', 'merge_install': False, 'path': '/home/sebas/mbehu_restored_ws/src/ldlidar_sl_ros2', 'symlink_install': False, 'test_result_base': None}
+[1.740s] Level 5:colcon.colcon_core.verb:set package 'mbehu_bot' build argument 'cmake_args' from command line to 'None'
+[1.740s] Level 5:colcon.colcon_core.verb:set package 'mbehu_bot' build argument 'cmake_target' from command line to 'None'
+[1.740s] Level 5:colcon.colcon_core.verb:set package 'mbehu_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.740s] Level 5:colcon.colcon_core.verb:set package 'mbehu_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[1.740s] Level 5:colcon.colcon_core.verb:set package 'mbehu_bot' build argument 'cmake_clean_first' from command line to 'False'
+[1.740s] Level 5:colcon.colcon_core.verb:set package 'mbehu_bot' build argument 'cmake_force_configure' from command line to 'False'
+[1.741s] Level 5:colcon.colcon_core.verb:set package 'mbehu_bot' build argument 'ament_cmake_args' from command line to 'None'
+[1.741s] Level 5:colcon.colcon_core.verb:set package 'mbehu_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[1.741s] Level 5:colcon.colcon_core.verb:set package 'mbehu_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.741s] DEBUG:colcon.colcon_core.verb:Building package 'mbehu_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sebas/mbehu_restored_ws/build/mbehu_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sebas/mbehu_restored_ws/install/mbehu_bot', 'merge_install': False, 'path': '/home/sebas/mbehu_restored_ws/src/mbehu_bot', 'symlink_install': False, 'test_result_base': None}
+[1.746s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_args' from command line to 'None'
+[1.746s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_target' from command line to 'None'
+[1.746s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.746s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_clean_cache' from command line to 'False'
+[1.746s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_clean_first' from command line to 'False'
+[1.746s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_force_configure' from command line to 'False'
+[1.747s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'ament_cmake_args' from command line to 'None'
+[1.747s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'catkin_cmake_args' from command line to 'None'
+[1.747s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.747s] DEBUG:colcon.colcon_core.verb:Building package 'multirobot_map_merge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sebas/mbehu_restored_ws/build/multirobot_map_merge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sebas/mbehu_restored_ws/install/multirobot_map_merge', 'merge_install': False, 'path': '/home/sebas/mbehu_restored_ws/src/m-explore-ros2/map_merge', 'symlink_install': False, 'test_result_base': None}
+[1.752s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[1.752s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[1.752s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.752s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[1.752s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[1.752s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[1.753s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[1.753s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[1.753s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.753s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sebas/mbehu_restored_ws/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sebas/mbehu_restored_ws/install/serial', 'merge_install': False, 'path': '/home/sebas/mbehu_restored_ws/src/serial', 'symlink_install': False, 'test_result_base': None}
+[1.758s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_args' from command line to 'None'
+[1.758s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target' from command line to 'None'
+[1.758s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.758s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.758s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.758s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.759s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.759s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.759s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.759s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sebas/mbehu_restored_ws/build/serial_motor_demo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs', 'merge_install': False, 'path': '/home/sebas/mbehu_restored_ws/src/serial_motor_demo/serial_motor_demo_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.764s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_args' from command line to 'None'
+[1.764s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target' from command line to 'None'
+[1.764s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.764s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[1.764s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_first' from command line to 'False'
+[1.764s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_force_configure' from command line to 'False'
+[1.765s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'ament_cmake_args' from command line to 'None'
+[1.765s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[1.765s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.765s] DEBUG:colcon.colcon_core.verb:Building package 'diffdrive_arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sebas/mbehu_restored_ws/build/diffdrive_arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sebas/mbehu_restored_ws/install/diffdrive_arduino', 'merge_install': False, 'path': '/home/sebas/mbehu_restored_ws/src/diffdrive_arduino', 'symlink_install': False, 'test_result_base': None}
+[1.770s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_args' from command line to 'None'
+[1.770s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target' from command line to 'None'
+[1.770s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.770s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.770s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_first' from command line to 'False'
+[1.770s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_force_configure' from command line to 'False'
+[1.770s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'ament_cmake_args' from command line to 'None'
+[1.771s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.771s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.771s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sebas/mbehu_restored_ws/build/serial_motor_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sebas/mbehu_restored_ws/install/serial_motor_demo', 'merge_install': False, 'path': '/home/sebas/mbehu_restored_ws/src/serial_motor_demo/serial_motor_demo', 'symlink_install': False, 'test_result_base': None}
+[1.774s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.793s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.795s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sebas/mbehu_restored_ws/src/serial' with build type 'ament_cmake'
+[1.796s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sebas/mbehu_restored_ws/src/serial'
+[1.817s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.818s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.818s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.862s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sebas/mbehu_restored_ws/src/serial_motor_demo/serial_motor_demo_msgs' with build type 'ament_cmake'
+[1.863s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sebas/mbehu_restored_ws/src/serial_motor_demo/serial_motor_demo_msgs'
+[1.873s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.874s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.918s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sebas/mbehu_restored_ws/src/m-explore-ros2/explore' with build type 'ament_cmake'
+[1.919s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sebas/mbehu_restored_ws/src/m-explore-ros2/explore'
+[1.928s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.929s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.972s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sebas/mbehu_restored_ws/src/ldlidar_sl_ros2' with build type 'ament_cmake'
+[1.974s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sebas/mbehu_restored_ws/src/ldlidar_sl_ros2'
+[1.982s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.982s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sebas/mbehu_restored_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --build /home/sebas/mbehu_restored_ws/build/serial -- -j4 -l4
+[2.081s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sebas/mbehu_restored_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --build /home/sebas/mbehu_restored_ws/build/serial_motor_demo_msgs -- -j4 -l4
+[2.117s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sebas/mbehu_restored_ws/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --build /home/sebas/mbehu_restored_ws/build/explore_lite -- -j4 -l4
+[2.194s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sebas/mbehu_restored_ws/build/ldlidar_sl_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --build /home/sebas/mbehu_restored_ws/build/ldlidar_sl_ros2 -- -j4 -l4
+[2.857s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sebas/mbehu_restored_ws/build/ldlidar_sl_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --build /home/sebas/mbehu_restored_ws/build/ldlidar_sl_ros2 -- -j4 -l4
+[3.421s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sebas/mbehu_restored_ws/build/ldlidar_sl_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --install /home/sebas/mbehu_restored_ws/build/ldlidar_sl_ros2
+[3.457s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sebas/mbehu_restored_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --build /home/sebas/mbehu_restored_ws/build/serial -- -j4 -l4
+[3.605s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sebas/mbehu_restored_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --build /home/sebas/mbehu_restored_ws/build/explore_lite -- -j4 -l4
+[3.669s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ldlidar_sl_ros2)
+[3.671s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sebas/mbehu_restored_ws/build/ldlidar_sl_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --install /home/sebas/mbehu_restored_ws/build/ldlidar_sl_ros2
+[3.702s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2' for CMake module files
+[3.706s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2' for CMake config files
+[3.708s] Level 1:colcon.colcon_core.shell:create_environment_hook('ldlidar_sl_ros2', 'cmake_prefix_path')
+[3.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/hook/cmake_prefix_path.ps1'
+[3.720s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/hook/cmake_prefix_path.dsv'
+[3.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/hook/cmake_prefix_path.sh'
+[3.727s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/lib'
+[3.729s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/bin'
+[3.729s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/lib/pkgconfig/ldlidar_sl_ros2.pc'
+[3.730s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/lib/python3.8/site-packages'
+[3.731s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/bin'
+[3.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.ps1'
+[3.742s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.dsv'
+[3.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.sh'
+[3.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.bash'
+[3.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.zsh'
+[3.756s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/colcon-core/packages/ldlidar_sl_ros2)
+[3.895s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sebas/mbehu_restored_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --install /home/sebas/mbehu_restored_ws/build/serial
+[3.973s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sebas/mbehu_restored_ws/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --install /home/sebas/mbehu_restored_ws/build/explore_lite
+[4.064s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[4.079s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/serial' for CMake module files
+[4.090s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sebas/mbehu_restored_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --install /home/sebas/mbehu_restored_ws/build/serial
+[4.095s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/serial' for CMake config files
+[4.098s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[4.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[4.119s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sebas/mbehu_restored_ws/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[4.124s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[4.131s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/serial/lib'
+[4.132s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/serial/bin'
+[4.133s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/serial/lib/pkgconfig/serial.pc'
+[4.134s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/serial/lib/python3.8/site-packages'
+[4.135s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/serial/bin'
+[4.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/serial/share/serial/package.ps1'
+[4.150s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sebas/mbehu_restored_ws/install/serial/share/serial/package.dsv'
+[4.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/serial/share/serial/package.sh'
+[4.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/serial/share/serial/package.bash'
+[4.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/serial/share/serial/package.zsh'
+[4.161s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sebas/mbehu_restored_ws/install/serial/share/colcon-core/packages/serial)
+[4.199s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explore_lite)
+[4.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sebas/mbehu_restored_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --install /home/sebas/mbehu_restored_ws/build/explore_lite
+[4.225s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/explore_lite' for CMake module files
+[4.231s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/explore_lite' for CMake config files
+[4.233s] Level 1:colcon.colcon_core.shell:create_environment_hook('explore_lite', 'cmake_prefix_path')
+[4.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.ps1'
+[4.248s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sebas/mbehu_restored_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.dsv'
+[4.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.sh'
+[4.255s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/explore_lite/lib'
+[4.256s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/explore_lite/bin'
+[4.256s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/explore_lite/lib/pkgconfig/explore_lite.pc'
+[4.257s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/explore_lite/lib/python3.8/site-packages'
+[4.259s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/explore_lite/bin'
+[4.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/explore_lite/share/explore_lite/package.ps1'
+[4.269s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sebas/mbehu_restored_ws/install/explore_lite/share/explore_lite/package.dsv'
+[4.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/explore_lite/share/explore_lite/package.sh'
+[4.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/explore_lite/share/explore_lite/package.bash'
+[4.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/explore_lite/share/explore_lite/package.zsh'
+[4.280s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sebas/mbehu_restored_ws/install/explore_lite/share/colcon-core/packages/explore_lite)
+[4.314s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ldlidar_sl_ros2)
+[4.327s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2' for CMake module files
+[4.333s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2' for CMake config files
+[4.335s] Level 1:colcon.colcon_core.shell:create_environment_hook('ldlidar_sl_ros2', 'cmake_prefix_path')
+[4.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/hook/cmake_prefix_path.ps1'
+[4.349s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/hook/cmake_prefix_path.dsv'
+[4.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/hook/cmake_prefix_path.sh'
+[4.356s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/lib'
+[4.356s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/bin'
+[4.357s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/lib/pkgconfig/ldlidar_sl_ros2.pc'
+[4.359s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/lib/python3.8/site-packages'
+[4.360s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/bin'
+[4.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.ps1'
+[4.373s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.dsv'
+[4.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.sh'
+[4.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.bash'
+[4.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.zsh'
+[4.384s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2/share/colcon-core/packages/ldlidar_sl_ros2)
+[4.390s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sebas/mbehu_restored_ws/src/mbehu_bot' with build type 'ament_cmake'
+[4.391s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sebas/mbehu_restored_ws/src/mbehu_bot'
+[4.400s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.400s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.491s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sebas/mbehu_restored_ws/build/mbehu_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --build /home/sebas/mbehu_restored_ws/build/mbehu_bot -- -j4 -l4
+[4.580s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[4.605s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/serial' for CMake module files
+[4.608s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/serial' for CMake config files
+[4.612s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[4.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[4.631s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sebas/mbehu_restored_ws/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[4.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[4.640s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/serial/lib'
+[4.641s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/serial/bin'
+[4.641s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/serial/lib/pkgconfig/serial.pc'
+[4.642s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/serial/lib/python3.8/site-packages'
+[4.643s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/serial/bin'
+[4.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/serial/share/serial/package.ps1'
+[4.656s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sebas/mbehu_restored_ws/install/serial/share/serial/package.dsv'
+[4.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/serial/share/serial/package.sh'
+[4.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/serial/share/serial/package.bash'
+[4.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/serial/share/serial/package.zsh'
+[4.666s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sebas/mbehu_restored_ws/install/serial/share/colcon-core/packages/serial)
+[4.672s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sebas/mbehu_restored_ws/src/m-explore-ros2/map_merge' with build type 'ament_cmake'
+[4.674s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sebas/mbehu_restored_ws/src/m-explore-ros2/map_merge'
+[4.683s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.684s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.777s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explore_lite)
+[4.788s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/explore_lite' for CMake module files
+[4.793s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/explore_lite' for CMake config files
+[4.795s] Level 1:colcon.colcon_core.shell:create_environment_hook('explore_lite', 'cmake_prefix_path')
+[4.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.ps1'
+[4.808s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sebas/mbehu_restored_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.dsv'
+[4.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.sh'
+[4.814s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/explore_lite/lib'
+[4.815s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/explore_lite/bin'
+[4.816s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/explore_lite/lib/pkgconfig/explore_lite.pc'
+[4.817s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/explore_lite/lib/python3.8/site-packages'
+[4.818s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/explore_lite/bin'
+[4.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/explore_lite/share/explore_lite/package.ps1'
+[4.832s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sebas/mbehu_restored_ws/install/explore_lite/share/explore_lite/package.dsv'
+[4.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/explore_lite/share/explore_lite/package.sh'
+[4.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/explore_lite/share/explore_lite/package.bash'
+[4.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/explore_lite/share/explore_lite/package.zsh'
+[4.844s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sebas/mbehu_restored_ws/install/explore_lite/share/colcon-core/packages/explore_lite)
+[4.873s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sebas/mbehu_restored_ws/build/multirobot_map_merge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --build /home/sebas/mbehu_restored_ws/build/multirobot_map_merge -- -j4 -l4
+[4.886s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sebas/mbehu_restored_ws/src/diffdrive_arduino' with build type 'ament_cmake'
+[4.888s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sebas/mbehu_restored_ws/src/diffdrive_arduino'
+[4.900s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.900s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.981s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sebas/mbehu_restored_ws/build/mbehu_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --build /home/sebas/mbehu_restored_ws/build/mbehu_bot -- -j4 -l4
+[5.062s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sebas/mbehu_restored_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/sebas/mbehu_restored_ws/install/serial:/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs:/home/sebas/mbehu_restored_ws/install/diffdrive_arduino:/home/sebas/mbehu_restored_ws/install/multirobot_map_merge:/home/sebas/mbehu_restored_ws/install/mbehu_bot:/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_restored_ws/install/explore_lite:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --build /home/sebas/mbehu_restored_ws/build/diffdrive_arduino -- -j4 -l4
+[5.281s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sebas/mbehu_restored_ws/build/mbehu_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --install /home/sebas/mbehu_restored_ws/build/mbehu_bot
+[5.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sebas/mbehu_restored_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --build /home/sebas/mbehu_restored_ws/build/serial_motor_demo_msgs -- -j4 -l4
+[5.489s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mbehu_bot)
+[5.492s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sebas/mbehu_restored_ws/build/mbehu_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --install /home/sebas/mbehu_restored_ws/build/mbehu_bot
+[5.509s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/mbehu_bot' for CMake module files
+[5.513s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/mbehu_bot' for CMake config files
+[5.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('mbehu_bot', 'cmake_prefix_path')
+[5.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/hook/cmake_prefix_path.ps1'
+[5.525s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/hook/cmake_prefix_path.dsv'
+[5.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/hook/cmake_prefix_path.sh'
+[5.531s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/mbehu_bot/bin'
+[5.531s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/mbehu_bot/lib/pkgconfig/mbehu_bot.pc'
+[5.532s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/mbehu_bot/lib/python3.8/site-packages'
+[5.533s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/mbehu_bot/bin'
+[5.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/package.ps1'
+[5.545s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/package.dsv'
+[5.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/package.sh'
+[5.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/package.bash'
+[5.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/package.zsh'
+[5.555s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sebas/mbehu_restored_ws/install/mbehu_bot/share/colcon-core/packages/mbehu_bot)
+[5.770s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mbehu_bot)
+[5.788s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/mbehu_bot' for CMake module files
+[5.797s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/mbehu_bot' for CMake config files
+[5.800s] Level 1:colcon.colcon_core.shell:create_environment_hook('mbehu_bot', 'cmake_prefix_path')
+[5.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/hook/cmake_prefix_path.ps1'
+[5.810s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/hook/cmake_prefix_path.dsv'
+[5.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/hook/cmake_prefix_path.sh'
+[5.816s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/mbehu_bot/bin'
+[5.817s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/mbehu_bot/lib/pkgconfig/mbehu_bot.pc'
+[5.818s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/mbehu_bot/lib/python3.8/site-packages'
+[5.819s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/mbehu_bot/bin'
+[5.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/package.ps1'
+[5.831s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/package.dsv'
+[5.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/package.sh'
+[5.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/package.bash'
+[5.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/mbehu_bot/share/mbehu_bot/package.zsh'
+[5.842s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sebas/mbehu_restored_ws/install/mbehu_bot/share/colcon-core/packages/mbehu_bot)
+[6.018s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sebas/mbehu_restored_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/sebas/mbehu_restored_ws/install/serial:/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs:/home/sebas/mbehu_restored_ws/install/diffdrive_arduino:/home/sebas/mbehu_restored_ws/install/multirobot_map_merge:/home/sebas/mbehu_restored_ws/install/mbehu_bot:/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_restored_ws/install/explore_lite:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --build /home/sebas/mbehu_restored_ws/build/diffdrive_arduino -- -j4 -l4
+[6.299s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sebas/mbehu_restored_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/sebas/mbehu_restored_ws/install/serial:/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs:/home/sebas/mbehu_restored_ws/install/diffdrive_arduino:/home/sebas/mbehu_restored_ws/install/multirobot_map_merge:/home/sebas/mbehu_restored_ws/install/mbehu_bot:/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_restored_ws/install/explore_lite:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --install /home/sebas/mbehu_restored_ws/build/diffdrive_arduino
+[6.373s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sebas/mbehu_restored_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --install /home/sebas/mbehu_restored_ws/build/serial_motor_demo_msgs
+[6.432s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sebas/mbehu_restored_ws/build/multirobot_map_merge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --build /home/sebas/mbehu_restored_ws/build/multirobot_map_merge -- -j4 -l4
+[6.540s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[6.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sebas/mbehu_restored_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/sebas/mbehu_restored_ws/install/serial:/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs:/home/sebas/mbehu_restored_ws/install/diffdrive_arduino:/home/sebas/mbehu_restored_ws/install/multirobot_map_merge:/home/sebas/mbehu_restored_ws/install/mbehu_bot:/home/sebas/mbehu_restored_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_restored_ws/install/explore_lite:/home/sebas/mbehu_ws/install/diffdrive_arduino:/home/sebas/mbehu_ws/install/serial:/home/sebas/mbehu_ws/install/mbehu_bot:/home/sebas/mbehu_ws/install/ldlidar_sl_ros2:/home/sebas/mbehu_ws/install/imu_driver:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --install /home/sebas/mbehu_restored_ws/build/diffdrive_arduino
+[6.578s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/diffdrive_arduino' for CMake module files
+[6.595s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/diffdrive_arduino' for CMake config files
+[6.599s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[6.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[6.636s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[6.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[6.655s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/lib'
+[6.657s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[6.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[6.685s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[6.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[6.694s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/bin'
+[6.694s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[6.696s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/lib/python3.8/site-packages'
+[6.698s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/bin'
+[6.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[6.710s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[6.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[6.716s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[6.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[6.720s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[6.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sebas/mbehu_restored_ws/build/multirobot_map_merge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --install /home/sebas/mbehu_restored_ws/build/multirobot_map_merge
+[6.982s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multirobot_map_merge)
+[6.999s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/multirobot_map_merge' for CMake module files
+[6.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sebas/mbehu_restored_ws/build/multirobot_map_merge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --install /home/sebas/mbehu_restored_ws/build/multirobot_map_merge
+[7.005s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/multirobot_map_merge' for CMake config files
+[7.011s] Level 1:colcon.colcon_core.shell:create_environment_hook('multirobot_map_merge', 'cmake_prefix_path')
+[7.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.ps1'
+[7.026s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.dsv'
+[7.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.sh'
+[7.038s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/multirobot_map_merge/lib'
+[7.042s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/multirobot_map_merge/bin'
+[7.044s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/multirobot_map_merge/lib/pkgconfig/multirobot_map_merge.pc'
+[7.048s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/multirobot_map_merge/lib/python3.8/site-packages'
+[7.051s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/multirobot_map_merge/bin'
+[7.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.ps1'
+[7.063s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.dsv'
+[7.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.sh'
+[7.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.bash'
+[7.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.zsh'
+[7.073s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/colcon-core/packages/multirobot_map_merge)
+[7.092s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo_msgs)
+[7.093s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sebas/mbehu_restored_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --install /home/sebas/mbehu_restored_ws/build/serial_motor_demo_msgs
+[7.104s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs' for CMake module files
+[7.109s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs' for CMake config files
+[7.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'cmake_prefix_path')
+[7.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
+[7.139s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
+[7.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
+[7.145s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib'
+[7.145s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'ld_library_path_lib')
+[7.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
+[7.154s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
+[7.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
+[7.158s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/bin'
+[7.158s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
+[7.160s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages'
+[7.160s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'pythonpath')
+[7.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.ps1'
+[7.169s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.dsv'
+[7.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.sh'
+[7.174s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/bin'
+[7.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
+[7.184s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
+[7.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
+[7.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
+[7.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
+[7.193s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
+[7.214s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[7.225s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/diffdrive_arduino' for CMake module files
+[7.229s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/diffdrive_arduino' for CMake config files
+[7.231s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[7.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[7.242s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[7.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[7.248s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/lib'
+[7.249s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[7.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[7.258s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[7.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[7.262s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/bin'
+[7.263s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[7.264s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/lib/python3.8/site-packages'
+[7.265s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/bin'
+[7.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[7.279s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[7.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[7.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[7.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[7.289s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sebas/mbehu_restored_ws/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[7.340s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multirobot_map_merge)
+[7.350s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/multirobot_map_merge' for CMake module files
+[7.353s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/multirobot_map_merge' for CMake config files
+[7.356s] Level 1:colcon.colcon_core.shell:create_environment_hook('multirobot_map_merge', 'cmake_prefix_path')
+[7.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.ps1'
+[7.365s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.dsv'
+[7.367s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.sh'
+[7.370s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/multirobot_map_merge/lib'
+[7.370s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/multirobot_map_merge/bin'
+[7.371s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/multirobot_map_merge/lib/pkgconfig/multirobot_map_merge.pc'
+[7.371s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/multirobot_map_merge/lib/python3.8/site-packages'
+[7.372s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/multirobot_map_merge/bin'
+[7.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.ps1'
+[7.383s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.dsv'
+[7.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.sh'
+[7.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.bash'
+[7.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.zsh'
+[7.392s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/colcon-core/packages/multirobot_map_merge)
+[7.853s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo_msgs)
+[7.865s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs' for CMake module files
+[7.869s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs' for CMake config files
+[7.876s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'cmake_prefix_path')
+[7.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
+[7.941s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
+[7.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
+[7.946s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib'
+[7.947s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'ld_library_path_lib')
+[7.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
+[7.956s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
+[7.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
+[7.960s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/bin'
+[7.960s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
+[7.961s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages'
+[7.962s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'pythonpath')
+[7.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.ps1'
+[7.972s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.dsv'
+[7.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.sh'
+[7.976s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/bin'
+[7.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
+[7.988s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
+[7.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
+[7.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
+[7.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
+[7.997s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
+[7.999s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sebas/mbehu_restored_ws/src/serial_motor_demo/serial_motor_demo' with build type 'ament_python'
+[8.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'ament_prefix_path')
+[8.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.ps1'
+[8.011s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sebas/mbehu_restored_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.dsv'
+[8.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.sh'
+[8.021s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.022s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.472s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sebas/mbehu_restored_ws/src/serial_motor_demo/serial_motor_demo'
+[9.479s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.480s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sebas/mbehu_restored_ws/build/serial_motor_demo': PYTHONPATH=/home/sebas/mbehu_restored_ws/build/serial_motor_demo/prefix_override:/home/sebas/mbehu_restored_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/sebas/mbehu_restored_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/ultrasonico:/home/sebas/mbehu_ws/install/ultrasonico/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050_pkg/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050:/home/sebas/mbehu_ws/install/mpu6050/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/sebas/mbehu_restored_ws/build/serial_motor_demo/build
+[14.175s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sebas/mbehu_restored_ws/build/serial_motor_demo' returned '0': PYTHONPATH=/home/sebas/mbehu_restored_ws/build/serial_motor_demo/prefix_override:/home/sebas/mbehu_restored_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/sebas/mbehu_restored_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/ultrasonico:/home/sebas/mbehu_ws/install/ultrasonico/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050_pkg/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050:/home/sebas/mbehu_ws/install/mpu6050/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/sebas/mbehu_restored_ws/build/serial_motor_demo/build
+[14.188s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sebas/mbehu_restored_ws/src/serial_motor_demo/serial_motor_demo': PYTHONPATH=/home/sebas/mbehu_restored_ws/build/serial_motor_demo/prefix_override:/home/sebas/mbehu_restored_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/sebas/mbehu_restored_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/ultrasonico:/home/sebas/mbehu_ws/install/ultrasonico/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050_pkg/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050:/home/sebas/mbehu_ws/install/mpu6050/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/serial_motor_demo build --build-base /home/sebas/mbehu_restored_ws/build/serial_motor_demo/build install --record /home/sebas/mbehu_restored_ws/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed
+[15.974s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/serial_motor_demo' for CMake module files
+[15.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sebas/mbehu_restored_ws/src/serial_motor_demo/serial_motor_demo' returned '0': PYTHONPATH=/home/sebas/mbehu_restored_ws/build/serial_motor_demo/prefix_override:/home/sebas/mbehu_restored_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/sebas/mbehu_restored_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/ultrasonico:/home/sebas/mbehu_ws/install/ultrasonico/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050_pkg/lib/python3.8/site-packages:/home/sebas/mbehu_ws/build/mpu6050:/home/sebas/mbehu_ws/install/mpu6050/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/serial_motor_demo build --build-base /home/sebas/mbehu_restored_ws/build/serial_motor_demo/build install --record /home/sebas/mbehu_restored_ws/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed
+[15.978s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/serial_motor_demo' for CMake config files
+[15.982s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/serial_motor_demo/lib'
+[15.982s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/serial_motor_demo/bin'
+[15.983s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/serial_motor_demo/lib/pkgconfig/serial_motor_demo.pc'
+[15.984s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/serial_motor_demo/lib/python3.8/site-packages'
+[15.984s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'pythonpath')
+[15.991s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.ps1'
+[15.994s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sebas/mbehu_restored_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.dsv'
+[15.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sebas/mbehu_restored_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.sh'
+[15.999s] Level 1:colcon.colcon_core.environment:checking '/home/sebas/mbehu_restored_ws/install/serial_motor_demo/bin'
+[16.000s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo)
+[16.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/serial_motor_demo/share/serial_motor_demo/package.ps1'
+[16.010s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sebas/mbehu_restored_ws/install/serial_motor_demo/share/serial_motor_demo/package.dsv'
+[16.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/serial_motor_demo/share/serial_motor_demo/package.sh'
+[16.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/serial_motor_demo/share/serial_motor_demo/package.bash'
+[16.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/sebas/mbehu_restored_ws/install/serial_motor_demo/share/serial_motor_demo/package.zsh'
+[16.023s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sebas/mbehu_restored_ws/install/serial_motor_demo/share/colcon-core/packages/serial_motor_demo)
+[16.025s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.026s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.027s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[16.028s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.062s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.063s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.063s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.108s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.Notifications exited with status 1
+[16.123s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.131s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sebas/mbehu_restored_ws/install/local_setup.ps1'
+[16.136s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sebas/mbehu_restored_ws/install/_local_setup_util_ps1.py'
+[16.142s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sebas/mbehu_restored_ws/install/setup.ps1'
+[16.154s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sebas/mbehu_restored_ws/install/local_setup.sh'
+[16.157s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sebas/mbehu_restored_ws/install/_local_setup_util_sh.py'
+[16.159s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sebas/mbehu_restored_ws/install/setup.sh'
+[16.171s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sebas/mbehu_restored_ws/install/local_setup.bash'
+[16.174s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sebas/mbehu_restored_ws/install/setup.bash'
+[16.185s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sebas/mbehu_restored_ws/install/local_setup.zsh'
+[16.188s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sebas/mbehu_restored_ws/install/setup.zsh'

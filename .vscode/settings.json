@@ -1,0 +1,13 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/sebas/mbehu_restored_ws/install/serial_motor_demo/lib/python3.8/site-packages",
+        "/home/sebas/mbehu_restored_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages",
+        "/home/sebas/mbehu_ws/build/ultrasonico",
+        "/home/sebas/mbehu_ws/install/ultrasonico/lib/python3.8/site-packages",
+        "/home/sebas/mbehu_ws/build/mpu6050_pkg",
+        "/home/sebas/mbehu_ws/install/mpu6050_pkg/lib/python3.8/site-packages",
+        "/home/sebas/mbehu_ws/build/mpu6050",
+        "/home/sebas/mbehu_ws/install/mpu6050/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages"
+    ]
+}

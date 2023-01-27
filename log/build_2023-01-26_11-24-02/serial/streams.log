@@ -1,0 +1,34 @@
+[0.588s] Invoking command in '/home/sebas/mbehu_restored_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --build /home/sebas/mbehu_restored_ws/build/serial -- -j4 -l4
+[2.215s] [ 28%] Built target serial
+[2.225s] [ 42%] Built target gtest
+[2.281s] [ 57%] Built target gtest_main
+[2.955s] [ 71%] Built target serial_example
+[3.136s] [ 85%] Built target serial-test
+[3.254s] [100%] Built target serial-test-timer
+[3.512s] Invoked command in '/home/sebas/mbehu_restored_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --build /home/sebas/mbehu_restored_ws/build/serial -- -j4 -l4
+[4.696s] Invoking command in '/home/sebas/mbehu_restored_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --install /home/sebas/mbehu_restored_ws/build/serial
+[4.840s] -- Install configuration: ""
+[4.851s] -- Execute custom install script
+[4.862s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/lib/libserial.a
+[4.888s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/include/serial/serial.h
+[4.894s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/include/serial/v8stdint.h
+[4.922s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/share/serial/environment/library_path.sh
+[4.927s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/share/serial/environment/library_path.dsv
+[4.933s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[4.952s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[4.958s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[4.965s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[4.977s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/share/serial/environment/path.sh
+[4.986s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/share/serial/environment/path.dsv
+[4.999s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/share/serial/local_setup.bash
+[5.004s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/share/serial/local_setup.sh
+[5.012s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/share/serial/local_setup.zsh
+[5.017s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/share/serial/local_setup.dsv
+[5.018s] -- Symlinking: /home/sebas/mbehu_restored_ws/install/serial/share/serial/package.dsv
+[5.196s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/share/ament_index/resource_index/packages/serial
+[5.211s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.217s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[5.222s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[5.234s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[5.238s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/serial/share/serial/package.xml
+[5.264s] Invoked command in '/home/sebas/mbehu_restored_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --install /home/sebas/mbehu_restored_ws/build/serial

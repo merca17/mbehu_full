@@ -1,0 +1,34 @@
+[0.197s] Invoking command in '/home/sebas/mbehu_restored_ws/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --build /home/sebas/mbehu_restored_ws/build/explore_lite -- -j4 -l4
+[0.756s] [ 20%] Built target gtest
+[1.140s] [ 60%] Built target explore
+[1.344s] [ 80%] Built target gtest_main
+[1.593s] [100%] Built target test_explore
+[1.685s] Invoked command in '/home/sebas/mbehu_restored_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --build /home/sebas/mbehu_restored_ws/build/explore_lite -- -j4 -l4
+[2.053s] Invoking command in '/home/sebas/mbehu_restored_ws/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --install /home/sebas/mbehu_restored_ws/build/explore_lite
+[2.119s] -- Install configuration: ""
+[2.125s] -- Execute custom install script
+[2.125s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/explore_lite/include/explore//costmap_client.h
+[2.126s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/explore_lite/include/explore//costmap_tools.h
+[2.126s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/explore_lite/include/explore//explore.h
+[2.127s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/explore_lite/include/explore//frontier_search.h
+[2.128s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/explore_lite/share/explore_lite/config/params.yaml
+[2.128s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/explore_lite/share/explore_lite/config/params_costmap.yaml
+[2.133s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/explore_lite/share/explore_lite/launch/explore.launch.py
+[2.134s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/explore_lite/lib/explore_lite/explore
+[2.163s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/explore_lite/share/ament_index/resource_index/package_run_dependencies/explore_lite
+[2.164s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/explore_lite/share/ament_index/resource_index/parent_prefix_path/explore_lite
+[2.165s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/explore_lite/share/explore_lite/environment/ament_prefix_path.sh
+[2.166s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/explore_lite/share/explore_lite/environment/ament_prefix_path.dsv
+[2.167s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/explore_lite/share/explore_lite/environment/path.sh
+[2.168s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/explore_lite/share/explore_lite/environment/path.dsv
+[2.169s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/explore_lite/share/explore_lite/local_setup.bash
+[2.172s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/explore_lite/share/explore_lite/local_setup.sh
+[2.173s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/explore_lite/share/explore_lite/local_setup.zsh
+[2.173s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/explore_lite/share/explore_lite/local_setup.dsv
+[2.174s] -- Symlinking: /home/sebas/mbehu_restored_ws/install/explore_lite/share/explore_lite/package.dsv
+[2.251s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/explore_lite/share/ament_index/resource_index/packages/explore_lite
+[2.253s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/explore_lite/share/explore_lite/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.256s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/explore_lite/share/explore_lite/cmake/explore_liteConfig.cmake
+[2.262s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/explore_lite/share/explore_lite/cmake/explore_liteConfig-version.cmake
+[2.267s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/explore_lite/share/explore_lite/package.xml
+[2.286s] Invoked command in '/home/sebas/mbehu_restored_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --install /home/sebas/mbehu_restored_ws/build/explore_lite

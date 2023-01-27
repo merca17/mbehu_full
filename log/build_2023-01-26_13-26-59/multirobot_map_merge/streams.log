@@ -1,0 +1,84 @@
+[0.257s] Invoking command in '/home/sebas/mbehu_restored_ws/build/multirobot_map_merge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake /home/sebas/mbehu_restored_ws/src/m-explore-ros2/map_merge -DCMAKE_INSTALL_PREFIX=/home/sebas/mbehu_restored_ws/install/multirobot_map_merge
+[0.371s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.709s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.467s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.552s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.878s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.901s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.576s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.816s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.827s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.544s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[5.716s] -- Found image_geometry: 3.0.7 (/opt/ros/foxy/share/image_geometry/cmake)
+[5.882s] -- Found map_msgs: 2.0.2 (/opt/ros/foxy/share/map_msgs/cmake)
+[7.943s] -- Found tf2_geometry_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[7.985s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[10.251s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[10.852s] -- Found ament_cmake_gtest: 0.9.11 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[10.897s] Checking MD5 sum of /home/sebas/mbehu_restored_ws/build/multirobot_map_merge/map00.pgm
+[11.019s] /home/sebas/mbehu_restored_ws/build/multirobot_map_merge/map00.pgm: OK
+[11.057s] Checking MD5 sum of /home/sebas/mbehu_restored_ws/build/multirobot_map_merge/map05.pgm
+[11.208s] /home/sebas/mbehu_restored_ws/build/multirobot_map_merge/map05.pgm: OK
+[11.261s] Checking MD5 sum of /home/sebas/mbehu_restored_ws/build/multirobot_map_merge/2011-08-09-12-22-52.pgm
+[11.726s] /home/sebas/mbehu_restored_ws/build/multirobot_map_merge/2011-08-09-12-22-52.pgm: OK
+[11.746s] Checking MD5 sum of /home/sebas/mbehu_restored_ws/build/multirobot_map_merge/2012-01-28-11-12-01.pgm
+[12.206s] /home/sebas/mbehu_restored_ws/build/multirobot_map_merge/2012-01-28-11-12-01.pgm: OK
+[12.211s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[12.335s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[12.349s] -- Configured cppcheck include dirs: /home/sebas/mbehu_restored_ws/src/m-explore-ros2/map_merge/include;$<BUILD_INTERFACE:/home/sebas/mbehu_restored_ws/src/m-explore-ros2/map_merge/include>
+[12.350s] -- Configured cppcheck exclude dirs and/or files: 
+[12.359s] -- Added test 'flake8' to check Python code syntax and style conventions
+[12.376s] -- Added test 'lint_cmake' to check CMake code style
+[12.381s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[12.412s] -- Added test 'uncrustify' to check C / C++ code style
+[12.413s] -- Configured uncrustify additional arguments: 
+[12.421s] -- Added test 'xmllint' to check XML markup files
+[12.488s] -- Configuring done
+[13.145s] -- Generating done
+[13.169s] -- Build files have been written to: /home/sebas/mbehu_restored_ws/build/multirobot_map_merge
+[13.280s] Invoked command in '/home/sebas/mbehu_restored_ws/build/multirobot_map_merge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake /home/sebas/mbehu_restored_ws/src/m-explore-ros2/map_merge -DCMAKE_INSTALL_PREFIX=/home/sebas/mbehu_restored_ws/install/multirobot_map_merge
+[13.285s] Invoking command in '/home/sebas/mbehu_restored_ws/build/multirobot_map_merge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --build /home/sebas/mbehu_restored_ws/build/multirobot_map_merge -- -j4 -l4
+[13.770s] [ 33%] Built target combine_grids
+[13.986s] [ 50%] Built target gtest_main
+[14.402s] [ 66%] Built target map_merge
+[14.622s] [ 83%] Built target gtest
+[14.966s] [100%] Built target test_merging_pipeline
+[15.036s] Invoked command in '/home/sebas/mbehu_restored_ws/build/multirobot_map_merge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --build /home/sebas/mbehu_restored_ws/build/multirobot_map_merge -- -j4 -l4
+[15.287s] Invoking command in '/home/sebas/mbehu_restored_ws/build/multirobot_map_merge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --install /home/sebas/mbehu_restored_ws/build/multirobot_map_merge
+[15.335s] -- Install configuration: ""
+[15.337s] -- Execute custom install script
+[15.343s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/multirobot_map_merge/include/map_merge//map_merge.h
+[15.345s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/multirobot_map_merge/include/map_merge//ros1_names.hpp
+[15.349s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/from_map_server.launch.py
+[15.351s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/map_merge.launch.py
+[15.353s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/map_merge.rviz
+[15.355s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/bringup_launch.py
+[15.357s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/config/nav2_multirobot_params_1.yaml
+[15.359s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/config/nav2_multirobot_params_2.yaml
+[15.360s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/multi_tb3_simulation_launch.py
+[15.362s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/slam_toolbox.py
+[15.364s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/tb3_simulation_launch.py
+[15.366s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/worlds/world_only.model
+[15.369s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/config/params.yaml
+[15.373s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/multirobot_map_merge/lib/multirobot_map_merge/map_merge
+[15.375s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/environment/library_path.sh
+[15.377s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/environment/library_path.dsv
+[15.379s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/ament_index/resource_index/package_run_dependencies/multirobot_map_merge
+[15.381s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/ament_index/resource_index/parent_prefix_path/multirobot_map_merge
+[15.383s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/environment/ament_prefix_path.sh
+[15.385s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/environment/ament_prefix_path.dsv
+[15.387s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/environment/path.sh
+[15.389s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/environment/path.dsv
+[15.391s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/local_setup.bash
+[15.393s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/local_setup.sh
+[15.396s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/local_setup.zsh
+[15.397s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/local_setup.dsv
+[15.398s] -- Symlinking: /home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.dsv
+[15.455s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/ament_index/resource_index/packages/multirobot_map_merge
+[15.458s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.461s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/cmake/ament_cmake_export_libraries-extras.cmake
+[15.463s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/cmake/multirobot_map_mergeConfig.cmake
+[15.465s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/cmake/multirobot_map_mergeConfig-version.cmake
+[15.469s] -- Up-to-date symlink: /home/sebas/mbehu_restored_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.xml
+[15.469s] -- Up-to-date: /home/sebas/mbehu_restored_ws/install/multirobot_map_merge/lib/libcombine_grids.a
+[15.488s] Invoked command in '/home/sebas/mbehu_restored_ws/build/multirobot_map_merge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/mbehu_restored_ws/install/serial_motor_demo:/home/sebas/mbehu_ws/install/ultrasonico:/home/sebas/mbehu_ws/install/mpu6050_pkg:/home/sebas/mbehu_ws/install/mpu6050:/opt/ros/foxy /usr/bin/cmake --install /home/sebas/mbehu_restored_ws/build/multirobot_map_merge
